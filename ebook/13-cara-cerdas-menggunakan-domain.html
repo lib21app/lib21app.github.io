@@ -1,0 +1,67 @@
+<template>
+<div class="page">
+
+  <div class="navbar">
+    <div class="navbar-bg" style="background-color:#121212"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a class="link back" data-animate="false">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">Ebook</div>
+      <div class="right" style="margin-right:20px;">
+          <a href="#" class="sheet-open button button-small button-outline" data-sheet=".ebook1">Baca Ebook</a>
+      </div>
+    </div>
+  </div>
+  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+  <div class="page-content hide-navbar-on-scroll">
+      <div class="block">
+        <h1>13 Cara Cerdas Menggunakan Domain</h1>
+        <p>Siapa bilang nama domain hanya sebatas nama website saja? Anda bisa kok memanfaatkan nama domain agar website Anda lebih ciamik lagi nantinya.</p>
+		<p>Di sini Anda akan menemukan 13 tutorial menggunakan nama domain dengan cerdas. Mulai dari yang paling sederhana, menghubungkan domain dengan hosting. Lalu ada menggunakan domain di platform CMS seperti WordPress, Blogspot, Google Site, dan GitHub. </p>
+		<p>Anda juga bisa menerapkan redirect domain ke media sosial misalnya, LinkedIn, Facebook, dan Twitter. Hingga mengintegrasikan domain ke Google Mail, CloudFlare, membuat subdomain, menambahkan addon domain, dan parkir domain.</p>
+		<p>Semuanya telah dirangkum dalam tutorial mudah dan praktis, sehingga Anda bisa mencobanya sendiri! Tunggu apa lagi? Download ebook gratis Cara Cerdas Menggunakan Domain sekarang juga!</p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<a href="#" class="sheet-open button button-medium button-outline" data-sheet=".ebook1">Baca Ebook</a>
+							  
+                  <div class="sheet-modal ebook1 modalgelap" style="height:auto">
+                    <div class="sheet-modal-inner">
+                      <div class="sheet-modal-swipe-step">
+                        <div class="margin-top margin-bottom text-align-center" style="width:80%;margin-left:10%">Lanjutkan membaca?. File mungkin berukuran besar. Sambungkan ke Wifi Perpustakaan untuk akses yang lebih cepat.</div>
+                        <div class="padding-horizontal padding-bottom">
+                          <a href="https://ushulfiqih.com/maslahah-mursalah/" class="link external button button-large button-fill sheet-close">Lanjutkan membaca</a>
+                          <div class="margin-top text-align-center"><small>Tetap di aplikasi? <a class="sheet-close">Batalkan</a> </small></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+							  
+      </div>
+  </div>
+
+</div>
+</template>
+<script>
+  return {
+    methods: {
+      openAlert: function () {
+        var app = this.$app;
+        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
+      },
+      openPrompt: function () {
+        var app = this.$app;
+        app.dialog.prompt('Admin / Editor Password', function (name) {
+          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
+            app.dialog.alert('Unknown password: ' + name);
+          });
+        });
+      },
+    }
+  }
+</script>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+  <title>app.ushulfiqih.com</title>
+  <link rel="stylesheet" href="core/css/framework7.bundle.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <link rel="icon" href="img/logo.png">
+
+  <link rel="stylesheet" href="css/type-promise.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/horizontal.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/kaidahfiqih.css">
+
+</head>
+<body class="theme-dark">
+
+  <div id="app">
+
+      <div class="panel panel-left panel-cover panel-resizable panel-init">
+        <div class="page ">
+          <div class="page-content">
+            <div class="block-title" style="margin-top:-20px">Ushulfiqih.com <i class="icon f7-icons" style="font-size:14px">arrow_up_right_square</i></div>
+
+            <div class="card-content">
+              <div class="list media-list">
+                <ul>
+                  <a href="/akun/" class="link panel-close" data-animate="false">
+                  <li class="item-content">
+                    <div class="item-media"><img src="img/logo.png" width="44"/></div>
+                    <div class="item-inner white">
+                      <div class="item-title-row">My Account</div>
+                      <div class="item-subtitle"><i class="icon f7-icons" style="font-size:14px">gear_alt</i> Edit</div>
+                    </div>
+                  </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+
+            <div class="block">
+              <a href="index.html" class="link external panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">house</i> &nbsp;&nbsp;&nbsp;Ushul Fiqih</a><br/><br/>
+              <a href="/tab-search/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">search</i>&nbsp;&nbsp;&nbsp;Pencarian</a><br/><br/>
+              <a href="/tab-kaidah/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">rectangle_on_rectangle_angled</i>&nbsp;&nbsp;&nbsp;Kaidah Fiqih</a><br/>
+            </div>
+            <hr style="height:1px;border-width:0;color:#333333;background-color:#333333">
+            <div class="block">
+              <p>Versi aplikasi: 2.3-ijtihad</p>
+            </div>
+            <div class="block">
+              <a href="/welcome/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">arrow_clockwise</i>&nbsp;&nbsp;&nbsp;Splash</a><br/><br/>
+              <a href="/privacy/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">flag</i>&nbsp;&nbsp;&nbsp;Kebijakan Privasi</a><br/><br/>
+              <a href="/about/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">info_circle</i>&nbsp;&nbsp;&nbsp;Tentang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
+
+
+      <div class="page no-toolbar">
+      <div class="page-content">
+
+      	<style>
+      		#sky {
+      		  position: absolute;
+      		  top: 0;
+      		  left: 0;
+      		  height: 100%;
+      		  width: 100%;
+      		  background: linear-gradient(20deg, #121212, #121212);
+      		}
+
+      		#hour {
+      		  position: absolute;
+      		  transform: translateX(-50%);
+      		  left: 50%;
+      		  top: 5%;
+      		}
+
+      		#hour * {
+      		  z-index: 100;
+      		  text-align: center;
+      		  color: white;
+      		  font-family: "Ubuntu", Verdana, sans-serif;
+      		  padding: 0;
+      		  margin: 0;
+      		}
+
+      		#hour h1 {
+      		  font-size: 10vh;
+      	    font-weight: 300;
+      		}
+
+      		#hour h2 {
+      		  font-size: 2vh;
+      		  font-weight: 100;
+      			margin-top:-10px;
+      		}
+          #hour h3 {
+      		  font-size: 2vh;
+      		  font-weight: 1000;
+      			margin-top:-10px;
+            color:red;
+      		}
+
+      		#nama * {
+      			position: absolute;
+      		  transform: translateX(-50%);
+      		  left: 50%;
+      		  top: 40%;
+      			color:#ffffff
+      		}
+      		#nama h2 {
+      		  font-size: 2vh;
+      		  font-weight: 200;
+      			margin-top:30px;
+      		}
+      		#pesan * {
+      			position: absolute;
+      		  transform: translateX(-50%);
+      		  left: 50%;
+      		  bottom: 10%;
+      			color:#ffffff
+      		}
+      		#pesan h2 {
+      		  font-size: 2vh;
+      		  font-weight: 200;
+      			margin-top:30px;
+      			margin-left:-3px;
+      			text-align: center;
+      		}
+      	  #lock {
+      	    position: absolute;
+      		  transform: translateX(-50%);
+      		  left: 50%;
+      		  bottom: 30%;
+      	  }
+      		#lock h2 {
+      			font-size: 1.8vh;
+      			font-weight: 200;
+      			margin-top:10px;
+      		}
+      	</style>
+
+      	<div id="sky"></div>
+      	<div id="hour"><h1>Time</h1><h2>Date</h2><br/><br/><h3>NO INTERNET</h3></div>
+
+      		<div id="pesan">
+      				<h2>Tidak dapat memuat data dari<br/>smpn21purworejo.sch</h2>
+      		</div>
+
+      	<div id="lock"><div class="preloader color-multi"></div>
+      	</div>
+
+
+      	<script type="text/javascript">
+      	var rows = document.querySelectorAll(".ref p span");
+      	for (var i = rows.length - 1; i >= 0; i--) {
+      		rows[i].style.animationDelay = Math.random() * -30 +"s";
+      	};
+      	var widths = [8, 6, 10, 12, 5, 9, 5, 3];
+      	rows = document.querySelectorAll(".ref p");
+      	for (var i = rows.length - 1; i >= 0; i--) {
+      		rows[i].querySelector("span:first-child").style.width = widths[i] + "vmax";
+      		rows[i].querySelector("span:nth-child(2)").style.left = "calc(50% - " + widths[i]/2 + "vmax - 1.2vmax)";
+      		rows[i].querySelector("span:last-child").style.left = "calc(50% + " + widths[i]/2 + "vmax + 1.2vmax)";
+      	};
+
+      	var updateTimeDate = function()
+      	{
+      		var d = new Date();
+      		document.querySelector("h1").textContent = d.getHours() + ":" + (d.getMinutes() < 10 ? "0" + d.getMinutes() : d.getMinutes());
+
+      		var days = ["Ahad","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+      		var months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September","Oktober","November","Desember"];
+      		document.querySelector("h2").textContent = days[d.getDay()] + ", " + d.getDate() + " "+ months[d.getMonth()] + " " + d.getFullYear();
+      		setTimeout(updateTimeDate,5000);
+      	}
+      	updateTimeDate();
+
+      	</script>
+
+      </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="core/js/framework7.bundle.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/app.js"></script>
+  <script src='js/jquery.js'></script>
+  <script src='js/rekomendasi.js'></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/type-promise.js"></script>
+  <script src="js/kaidahfiqih.js"></script>
+  <script src="js/timeout.js"></script>
+  <script src="js/open-sheet.js"></script>
+
+</body>
+</html>

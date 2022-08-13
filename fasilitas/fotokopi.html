@@ -1,0 +1,49 @@
+<template>
+<div class="page">
+
+  <div class="navbar">
+    <div class="navbar-bg" style="background-color:#121212"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a class="link back" data-animate="false">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">Fotokopi</div>
+    </div>
+  </div>
+  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+  <div class="page-content hide-navbar-on-scroll">
+      <div class="block">
+        <h1>Fasilitas Fotokopi untuk Pemustaka</h1>
+		<h3>Gratis untuk Biblio Club!</h3>
+		<br/>
+							<p>Adakalanya Pemustaka membutuhkan buku-buku yang tidak dapat dipinjam sebagai sumber referensi untuk mengerjakan tugas dari bapak/ibu guru. Ya! Buku Referensi dengan kode "R" tersebut hanya dapat dibaca di perpustakaan dan tidak dapat dipinjam.</p>
+							
+							<p>Pemustaka dapat memanfaatkan fasilitas dan layanan fotokopi!</p>
+							
+							<p>#SalamLiterasi</p>
+      </div>
+  </div>
+
+</div>
+</template>
+<script>
+  return {
+    methods: {
+      openAlert: function () {
+        var app = this.$app;
+        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
+      },
+      openPrompt: function () {
+        var app = this.$app;
+        app.dialog.prompt('Admin / Editor Password', function (name) {
+          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
+            app.dialog.alert('Unknown password: ' + name);
+          });
+        });
+      },
+    }
+  }
+</script>

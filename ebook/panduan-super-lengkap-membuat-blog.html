@@ -1,0 +1,66 @@
+<template>
+<div class="page">
+
+  <div class="navbar">
+    <div class="navbar-bg" style="background-color:#121212"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a class="link back" data-animate="false">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">Ebook</div>
+      <div class="right" style="margin-right:20px;">
+          <a href="#" class="sheet-open button button-small button-outline" data-sheet=".ebook1">Baca Ebook</a>
+      </div>
+    </div>
+  </div>
+  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+  <div class="page-content hide-navbar-on-scroll">
+      <div class="block">
+        <h1>Panduan Super Lengkap Membuat Blog yang Menghasilkan Cuan</h1>
+        <p>Apakah Anda ingin membuat blog, tapi bingung mau memulai dari mana? Panduan yang Anda temukan di Google ternyata kurang lengkap, sehingga membuat Anda berpindah-pindah dari satu website ke website yang lainnya. Menghabis-habiskan waktu dan tenaga saja, kan?</p>
+		<p>Untungnya, Anda bisa menemukan semua hal yang dibutuhkan untuk membuat blog di ebook ini. Super lengkap dari A-Z! Mulai dari memilih topik, branding, hingga cara menghasilkan jutaan rupiah dari blog. </p>
+		<p>Yup, Anda bisa menjadi jutawan banyak cuan hanya bermodalkan blog saja, lho! Serius! Penasaran, kan? Maka dari itu, yuk segera buat blog dengan menerapkan langkah-langkah di ebook ini</p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<a href="#" class="sheet-open button button-medium button-outline" data-sheet=".ebook1">Baca Ebook</a>
+							  
+                  <div class="sheet-modal ebook1 modalgelap" style="height:auto">
+                    <div class="sheet-modal-inner">
+                      <div class="sheet-modal-swipe-step">
+                        <div class="margin-top margin-bottom text-align-center" style="width:80%;margin-left:10%">Lanjutkan membaca?. File mungkin berukuran besar. Sambungkan ke Wifi Perpustakaan untuk akses yang lebih cepat.</div>
+                        <div class="padding-horizontal padding-bottom">
+                          <a href="https://ushulfiqih.com/maslahah-mursalah/" class="link external button button-large button-fill sheet-close">Lanjutkan membaca</a>
+                          <div class="margin-top text-align-center"><small>Tetap di aplikasi? <a class="sheet-close">Batalkan</a> </small></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+							  
+      </div>
+  </div>
+
+</div>
+</template>
+<script>
+  return {
+    methods: {
+      openAlert: function () {
+        var app = this.$app;
+        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
+      },
+      openPrompt: function () {
+        var app = this.$app;
+        app.dialog.prompt('Admin / Editor Password', function (name) {
+          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
+            app.dialog.alert('Unknown password: ' + name);
+          });
+        });
+      },
+    }
+  }
+</script>

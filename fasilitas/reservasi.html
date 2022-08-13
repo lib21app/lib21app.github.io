@@ -1,0 +1,53 @@
+<template>
+<div class="page">
+
+  <div class="navbar">
+    <div class="navbar-bg" style="background-color:#121212"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a class="link back" data-animate="false">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">Ruang Multimedia</div>
+    </div>
+  </div>
+  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+  <div class="page-content hide-navbar-on-scroll">
+      <div class="block">
+        <h1>Reservasi Ruang Multimedia Perpustakaan Twenty One</h1>
+		<h3>Media literasi visual</h3>
+		<br/>
+							<p>Ruang Multimedia Perpustakaan Twenty One bisa dimanfaatkan untuk kegiatan pembelajaran, pesentasi, zoom meeting, nonton bareng, atau lainnya. Jadwal yang padat mengharuskan anda memastikan ketersediaan sebelum menggunakannya.</p>
+							
+							<br/>
+							<p><img src="img/bioskop.jpg" style="width:100%">Zoom meeting</p>
+							
+							<br/>
+							<p>Edit</p>
+							
+							<p>#SalamLiterasi</p>
+      </div>
+  </div>
+
+</div>
+</template>
+<script>
+  return {
+    methods: {
+      openAlert: function () {
+        var app = this.$app;
+        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
+      },
+      openPrompt: function () {
+        var app = this.$app;
+        app.dialog.prompt('Admin / Editor Password', function (name) {
+          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
+            app.dialog.alert('Unknown password: ' + name);
+          });
+        });
+      },
+    }
+  }
+</script>
