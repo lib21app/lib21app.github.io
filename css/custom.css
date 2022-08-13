@@ -59,6 +59,16 @@
 
 
 
+html {
+    overscroll-behavior-y: contain;
+}
+
+.html {
+    overscroll-behavior-y: contain;
+}
+
+
+
 
 .white {
  color:#dddddd;
