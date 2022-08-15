@@ -250,8 +250,16 @@ var routes = [
 },
 // NEWS
 {
+  path: '/rapat/',
+  componentUrl: './news/rapat.html',
+},
+{
   path: '/perpusda/',
   componentUrl: './news/perpusda.html',
+},
+{
+  path: '/aplikasi/',
+  componentUrl: './news/aplikasi.html',
 },
 // VIDEO
 {
