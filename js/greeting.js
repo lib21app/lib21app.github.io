@@ -18,3 +18,9 @@ if (time < 4) {
 document.getElementById("greeting1").innerHTML = greeting;
 document.getElementById("greeting2").innerHTML = greeting;
 document.getElementById("greeting3").innerHTML = greeting;
+document.getElementById("greeting4").innerHTML = greeting;
+document.getElementById("greeting5").innerHTML = greeting;
+document.getElementById("greeting6").innerHTML = greeting;
+document.getElementById("greeting7").innerHTML = greeting;
+document.getElementById("greeting8").innerHTML = greeting;
+document.getElementById("greeting9").innerHTML = greeting;

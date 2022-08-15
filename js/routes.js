@@ -37,6 +37,10 @@ var routes = [
 },
 //PATH
 {
+  path: '/poster/',
+  componentUrl: './pages/poster.html',
+},
+{
   path: '/literasi/',
   componentUrl: './pages/literasi.html',
 },
@@ -243,6 +247,11 @@ var routes = [
 {
   path: '/ebook-kiat-bikin-infografis-keren1-180202033321/',
   componentUrl: './teks/ebook-kiat-bikin-infografis-keren1-180202033321.html',
+},
+// NEWS
+{
+  path: '/perpusda/',
+  componentUrl: './news/perpusda.html',
 },
 // VIDEO
 {
