@@ -77,6 +77,10 @@ var routes = [
   componentUrl: './pages/about.html',
 },
 {
+  path: '/panduan/',
+  componentUrl: './pages/panduan.html',
+},
+{
   path: '/akun/',
   componentUrl: './pages/akun.html',
 },
@@ -233,6 +237,43 @@ var routes = [
 },
 // EBOOK
 {
+  path: '/haid-pertamaku/',
+  componentUrl: './ebook/haid-pertamaku.html',
+},
+{
+  path: '/bau-wangi-tarumenyan/',
+  componentUrl: './ebook/bau-wangi-tarumenyan.html',
+},
+{
+  path: '/jamakqasar/',
+  componentUrl: './ebook/jamakqasar.html',
+},
+{
+  path: '/sekolah-yes-nikah-muda-no-way/',
+  componentUrl: './ebook/sekolah-yes-nikah-muda-no-way.html',
+},
+{
+  path: '/karang-melenguh/',
+  componentUrl: './ebook/karang-melenguh.html',
+},
+{
+  path: '/zakat/',
+  componentUrl: './ebook/zakat.html',
+},
+{
+  path: '/puasa/',
+  componentUrl: './ebook/puasa.html',
+},
+{
+  path: '/legenda-batu-babi-dan-anjing/',
+  componentUrl: './ebook/legenda-batu-babi-dan-anjing.html',
+},
+{
+  path: '/jangan_takut_mencoba/',
+  componentUrl: './ebook/jangan_takut_mencoba.html',
+},
+//
+{
   path: '/roadmap-pembuatan-website/',
   componentUrl: './ebook/roadmap-pembuatan-website.html',
 },
@@ -265,6 +306,14 @@ var routes = [
 {
   path: '/tips-menulis-cerpen-yang-bagus/',
   componentUrl: './video/tips-menulis-cerpen-yang-bagus.html',
+},
+{
+  path: '/juara-menulis-cerpen/',
+  componentUrl: './video/juara-menulis-cerpen.html',
+},
+{
+  path: '/menulis-drama/',
+  componentUrl: './video/menulis-drama.html',
 },
 // Default route (404 page). MUST BE THE LAST
 {
