@@ -553,6 +553,12 @@ code {
   .demo-expandable-cards .card:nth-child(n + 3) {
     margin-top: 0;
   }
+  .demo-card-header-pic .card-header {
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
 }
 @media (min-width: 1024px) {
   .demo-expandable-cards .card {
@@ -560,6 +566,12 @@ code {
   }
   .demo-expandable-cards .card:nth-child(n + 2) {
     margin-left: 0;
+  }
+  .demo-card-header-pic .card-header {
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
   }
 }
 .view-master-detail .navbar-master-detail-root .link.back,
