@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="noindex">
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-  <title>app.ushulfiqih.com</title>
+  <title>Library SMPN 21 Purworejo</title>
   <link rel="stylesheet" href="core/css/framework7.bundle.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="apple-touch-icon" href="img/logo.png">
@@ -25,189 +25,1026 @@
 
   <div id="app">
 
-      <div class="panel panel-left panel-cover panel-resizable panel-init">
-        <div class="page ">
-          <div class="page-content">
-            <div class="block-title" style="margin-top:-20px">Ushulfiqih.com <i class="icon f7-icons" style="font-size:14px">arrow_up_right_square</i></div>
+    <div class="panel panel-left panel-cover panel-resizable panel-init">
+      <div class="page ">
+        <div class="page-content">
+          <div class="block-title" style="margin-top:-20px">MENU</div>
 
-            <div class="card-content">
-              <div class="list media-list">
-                <ul>
-                  <a href="/akun/" class="link panel-close" data-animate="false">
+          <div class="card-content">
+            <div class="list media-list">
+              <ul>
+                <a href="/welcome/" class="link panel-close" data-animate="false">
                   <li class="item-content">
                     <div class="item-media"><img src="img/logo.png" width="44"/></div>
                     <div class="item-inner white">
-                      <div class="item-title-row">My Account</div>
-                      <div class="item-subtitle"><i class="icon f7-icons" style="font-size:14px">gear_alt</i> Edit</div>
+                      <div class="item-title-row">Perpustakaan</div>
+                      <div class="item-subtitle">Twenty One</div>
                     </div>
                   </li>
-                  </a>
-                </ul>
-              </div>
+                </a>
+              </ul>
             </div>
+          </div>
 
-            <div class="block">
-              <a href="index.html" class="link external panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">house</i> &nbsp;&nbsp;&nbsp;Ushul Fiqih</a><br/><br/>
-              <a href="/tab-search/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">search</i>&nbsp;&nbsp;&nbsp;Pencarian</a><br/><br/>
-              <a href="/tab-kaidah/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">rectangle_on_rectangle_angled</i>&nbsp;&nbsp;&nbsp;Kaidah Fiqih</a><br/>
-            </div>
-            <hr style="height:1px;border-width:0;color:#333333;background-color:#333333">
-            <div class="block">
-              <p>Versi aplikasi: 2.3-ijtihad</p>
-            </div>
-            <div class="block">
-              <a href="/welcome/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">arrow_clockwise</i>&nbsp;&nbsp;&nbsp;Splash</a><br/><br/>
-              <a href="/privacy/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">flag</i>&nbsp;&nbsp;&nbsp;Kebijakan Privasi</a><br/><br/>
-              <a href="/about/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">info_circle</i>&nbsp;&nbsp;&nbsp;Tentang</a>
-            </div>
+          <div class="block">
+            <a href="index.html" class="link external panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">house</i> &nbsp;&nbsp;&nbsp;Literasi</a><br/><br/>
+            <a href="/todo/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">pencil</i> &nbsp;&nbsp;&nbsp;Catatanku</a><br/><br/>
+            <a href="/komunitas/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">bubble_left_bubble_right</i> &nbsp;&nbsp;&nbsp;Komunitas</a><br/><br/>
+            <a href="/audiobook/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">headphones</i> &nbsp;&nbsp;&nbsp;Audiobook</a><br/><br/>
+            <a href="/ebook/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons" style="font-size:24px">book</i> &nbsp;&nbsp;&nbsp;Ebook</a><br/>
+
+          </div>
+          <hr style="height:1px;border-width:0;color:#333333;background-color:#333333">
+          <div class="block">
+            <p>Versi aplikasi: 2022 (Agustus)</p>
+          </div>
+          <div class="block">
+            <a href="/about/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons" style="font-size:22px">info_circle</i>&nbsp;&nbsp;&nbsp;Tentang</a>
           </div>
         </div>
       </div>
+    </div>
 
     <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
 
-
-      <div class="page no-toolbar">
-      <div class="page-content">
-
-      	<style>
-      		#sky {
-      		  position: absolute;
-      		  top: 0;
-      		  left: 0;
-      		  height: 100%;
-      		  width: 100%;
-      		  background: linear-gradient(20deg, #121212, #121212);
-      		}
-
-      		#hour {
-      		  position: absolute;
-      		  transform: translateX(-50%);
-      		  left: 50%;
-      		  top: 5%;
-      		}
-
-      		#hour * {
-      		  z-index: 100;
-      		  text-align: center;
-      		  color: white;
-      		  font-family: "Ubuntu", Verdana, sans-serif;
-      		  padding: 0;
-      		  margin: 0;
-      		}
-
-      		#hour h1 {
-      		  font-size: 10vh;
-      	    font-weight: 300;
-      		}
-
-      		#hour h2 {
-      		  font-size: 2vh;
-      		  font-weight: 100;
-      			margin-top:-10px;
-      		}
-          #hour h3 {
-      		  font-size: 2vh;
-      		  font-weight: 1000;
-      			margin-top:-10px;
-            color:red;
-      		}
-
-      		#nama * {
-      			position: absolute;
-      		  transform: translateX(-50%);
-      		  left: 50%;
-      		  top: 40%;
-      			color:#ffffff
-      		}
-      		#nama h2 {
-      		  font-size: 2vh;
-      		  font-weight: 200;
-      			margin-top:30px;
-      		}
-      		#pesan * {
-      			position: absolute;
-      		  transform: translateX(-50%);
-      		  left: 50%;
-      		  bottom: 10%;
-      			color:#ffffff
-      		}
-      		#pesan h2 {
-      		  font-size: 2vh;
-      		  font-weight: 200;
-      			margin-top:30px;
-      			margin-left:-3px;
-      			text-align: center;
-      		}
-      	  #lock {
-      	    position: absolute;
-      		  transform: translateX(-50%);
-      		  left: 50%;
-      		  bottom: 30%;
-      	  }
-      		#lock h2 {
-      			font-size: 1.8vh;
-      			font-weight: 200;
-      			margin-top:10px;
-      		}
-      	</style>
-
-      	<div id="sky"></div>
-      	<div id="hour"><h1>Time</h1><h2>Date</h2><br/><br/><h3>NO INTERNET</h3></div>
-
-      		<div id="pesan">
-      				<h2>Tidak dapat memuat data dari<br/>smpn21purworejo.sch</h2>
-      		</div>
-
-      	<div id="lock"><div class="preloader color-multi"></div>
-      	</div>
-
-
-      	<script type="text/javascript">
-      	var rows = document.querySelectorAll(".ref p span");
-      	for (var i = rows.length - 1; i >= 0; i--) {
-      		rows[i].style.animationDelay = Math.random() * -30 +"s";
-      	};
-      	var widths = [8, 6, 10, 12, 5, 9, 5, 3];
-      	rows = document.querySelectorAll(".ref p");
-      	for (var i = rows.length - 1; i >= 0; i--) {
-      		rows[i].querySelector("span:first-child").style.width = widths[i] + "vmax";
-      		rows[i].querySelector("span:nth-child(2)").style.left = "calc(50% - " + widths[i]/2 + "vmax - 1.2vmax)";
-      		rows[i].querySelector("span:last-child").style.left = "calc(50% + " + widths[i]/2 + "vmax + 1.2vmax)";
-      	};
-
-      	var updateTimeDate = function()
-      	{
-      		var d = new Date();
-      		document.querySelector("h1").textContent = d.getHours() + ":" + (d.getMinutes() < 10 ? "0" + d.getMinutes() : d.getMinutes());
-
-      		var days = ["Ahad","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
-      		var months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September","Oktober","November","Desember"];
-      		document.querySelector("h2").textContent = days[d.getDay()] + ", " + d.getDate() + " "+ months[d.getMonth()] + " " + d.getFullYear();
-      		setTimeout(updateTimeDate,5000);
-      	}
-      	updateTimeDate();
-
-      	</script>
-
+      <div class="toolbar tabbar-labels toolbar-bottom" style="background-color:#121212">
+        <a href="/todo/" class="link" data-animate="false">
+          <div style="position: absolute; left: 15px; bottom: 14px; z-index: 9999; line-height: 1em;"><img src="img/logo.png" style="width: 25px;"><div style="position: absolute; left: 35px; bottom: 6px;font-size:8px; z-index: 9999;line-height: 1.0;color:#ffffff;">PERPUSTAKAAN<br/>TWENTY ONE</div></div>
+        </a>
+        <div class="toolbar-inner">
+          <a href="index.html" data-animate="false" class="link tab-link-active external"><i class="icon f7-icons">rectangle_on_rectangle_angled</i></a>
+          <a href="/audiobook/" data-animate="false" class="link"><i class="icon f7-icons">headphones</i></a>
+          <a href="/komunitas/" data-animate="false" class="link"><i class="icon f7-icons">captions_bubble</i></a>
+        </div>
       </div>
+
+      <div class="page">
+
+        <div class="navbar">
+          <div class="navbar-bg gelap"></div>
+          <div class="navbar-inner">
+            <div class="left">
+              <a href="#" class="link icon-only panel-open" data-panel="left">
+                <svg viewBox="0 0 100 80" width="40" height="40" style="fill: white">
+                  <rect y="5" width="90" height="8"></rect>
+                  <rect y="30" width="90" height="8"></rect>
+                  <rect y="55" width="90" height="8"></rect>
+                </svg>
+              </a>
+            </div>
+            <div class="title">Literasi</div>
+            <a href="index.html" class="link external" data-animate="false">
+              <div style="position: absolute; left: -10px; bottom: 18px; z-index: 9999; line-height: 1em;"><div style="position: absolute; bottom: 2px;font-size:8px; z-index: 9999;line-height: 1.0;color:#ffffff;">PERPUSTAKAAN<br/>TWENTY ONE</div></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="page-content">
+          <div class="tabs-swipeable-wrap">
+
+            <div class="tabs">
+              <div id="tab-1" class="page-content tab tab-active">
+                <div class="block" style="margin-top: -30px;">
+
+                  <div class="row">
+                    <!-- Each "cell" has col-[width in percents] class -->
+                    <div class="col-100 xsmall-100 small-100 medium-50	large-50	xlarge-50">
+                      <div class="card">
+                        <ushulfiqihcom id="1">
+                          <a href="/englishcorner/" class="item-link item-content">
+                            <div class="card demo-card-header-pic">
+                              <div class="card-header align-items-flex-end ruangbaca">Library News</div>
+                              <div class="card-content card-content-padding">
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting1"></a> selamat datang di Perpustakaan Twenty One. Anda tidak terhbung Internet</p>
+                              </div>
+                            </div>
+                          </a>
+                        </ushulfiqihcom>
+
+                        <ushulfiqihcom id="2">
+                          <a href="/bioskop/" class="item-link item-content">
+                            <div class="card demo-card-header-pic">
+                              <div class="card-header align-items-flex-end bioskop">Library News</div>
+                              <div class="card-content card-content-padding">
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting2"></a> selamat datang di Perpustakaan Twenty One. Anda tidak terhbung Internet</p>
+                              </div>
+                            </div>
+                          </a>
+                        </ushulfiqihcom>
+
+                        <ushulfiqihcom id="3">
+                          <a href="/perpusda/" class="item-link item-content">
+                            <div class="card demo-card-header-pic">
+                              <div class="card-header align-items-flex-end perpusda">Library News</div>
+                              <div class="card-content card-content-padding">
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting3"></a> selamat datang di Perpustakaan Twenty One. Anda tidak terhbung Internet</p>
+                              </div>
+                            </div>
+                          </a>
+                        </ushulfiqihcom>
+
+                        <ushulfiqihcom id="4">
+                          <a href="/smarttv/" class="item-link item-content">
+                            <div class="card demo-card-header-pic">
+                              <div class="card-header align-items-flex-end smarttv">Library News</div>
+                              <div class="card-content card-content-padding">
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting4"></a> selamat datang di Perpustakaan Twenty One. Anda tidak terhbung Internet</p>
+                              </div>
+                            </div>
+                          </a>
+                        </ushulfiqihcom>
+
+                        <ushulfiqihcom id="5">
+                          <a href="/smarttv/" class="item-link item-content">
+                            <div class="card demo-card-header-pic">
+                              <div class="card-header align-items-flex-end layanananak">Library News</div>
+                              <div class="card-content card-content-padding">
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting5"></a> selamat datang di Perpustakaan Twenty One. Anda tidak terhbung Internet</p>
+                              </div>
+                            </div>
+                          </a>
+                        </ushulfiqihcom>
+
+                        <ushulfiqihcom id="6">
+                          <a href="/smarttv/" class="item-link item-content">
+                            <div class="card demo-card-header-pic">
+                              <div class="card-header align-items-flex-end bercerita">Library News</div>
+                              <div class="card-content card-content-padding">
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting6"></a> selamat datang di Perpustakaan Twenty One. Anda tidak terhbung Internet</p>
+                              </div>
+                            </div>
+                          </a>
+                        </ushulfiqihcom>
+
+                        <ushulfiqihcom id="6">
+                          <a href="/rapat/" class="item-link item-content">
+                            <div class="card demo-card-header-pic">
+                              <div class="card-header align-items-flex-end rapat">Library News</div>
+                              <div class="card-content card-content-padding">
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting7"></a> selamat datang di Perpustakaan Twenty One. Anda tidak terhbung Internet</p>
+                              </div>
+                            </div>
+                          </a>
+                        </ushulfiqihcom>
+
+
+                        <div class="card-content">
+                          <div class="list media-list">
+                            <ul>
+                              <li>
+                                <a href="/fasilitas-layanan/" class="item-link item-content" data-animate="false">
+                                  <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">clock</i></div>
+                                  <div class="item-inner">
+
+                                    <div style="color:#C8F6EC; font-size: smaller; width:90%" id="ops-container"></div>
+
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="list media-list">
+                            <ul>
+                              <news id="1">
+                                <li>
+                                  <a href="/aplikasi/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/android-thumb.jpg" width="80"/></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Launching Aplikasi Baru Perpustakaan</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Library News</small></div>
+                                      <div class="item-text">Peluncuran aplikasi perpustakaan bertepatan dengan perayaan 40 tahun SMPN 21 Purworejo. Versi terbaru kini lebih cepat dan lengkap.</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </news>
+                              <news>
+                                <li>
+                                  <a href="/rapat/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/rapat-thumb.jpg" width="80"/></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Rapat Pengembangan Perpustakaan</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Library News</small></div>
+                                      <div class="item-text">Membahas perencanaan dan pengembangan Perpustakaan Twenty One SMPN 21 Purworejo di tahun 2022</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </news>
+                              <news>
+                                <li>
+                                  <a href="/perpusda/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/perpusda-thumb.jpg" width="80"/></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Bimbingan Perpusda Purworejo</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Library News</small></div>
+                                      <div class="item-text">Dinas Perpustakaan dan Kearsipan Daerah Kabupaten Purworejo melakukan bimbingan Akreditasi Perputakaan SMPN 21 Puworejo.</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </news>
+                            </ul>
+                          </div>
+
+                        </div>
+                        <div class="card-footer">
+                          <div class="list accordion-list accordion-opposite">
+                            <ul>
+                              <li class="accordion-item"><a class="item-content item-link" href="#">
+                                <div class="item-inner">
+                                  <div class="item-title" style="font-size: 12px;">Lokasi Perpustakaan</div>
+                                </div>
+                              </a>
+                              <div class="accordion-item-content">
+                                <div class="block">
+                                  <a href="https://goo.gl/maps/oYH6F9BMWJpy4gcV6" class="item-link external" data-animate="false">
+                                    <p><small><b>SMPN 21 Purworejo</b><br/>Brunorejo, Kec. Bruno, Kab. Purworejo, Jawa Tengah 54261 (Lihat Peta)</small></p>
+                                  </a>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">Cerita Pendek <a href="index.html" class="link external panel-close" data-animate="false" style="color:rgba(255, 255, 255, 0.54)"><i class="icon f7-icons" style="font-size: 14px">repeat</i><small>&nbsp;&nbsp;Refresh</small></a></div>
+                      <div class="card-content card-content-padding">
+                        <div class="list media-list">
+                          <ul>
+                            <rekomendasi id="1">
+                              <li>
+                                <a href="/lebih-kuat-dari-mati/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Lebih Kuat dari Mati</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Mardi Luhung</small></div>
+                                    <div class="item-text">Akhirnya, aku memang percaya, jika antara sakit dan mati tak ada hubungannya...</div>
+                                  </div>
+                                </a>
+                                <a href="/sepatu/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Sepatu</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Eep Saefulloh Fatah</small></div>
+                                    <div class="item-text">Hujan pertama akhirnya jatuh juga...</div>
+                                  </div>
+                                </a>
+                                <a href="/kirimi-aku-makanan/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Kirimi Aku Makanan</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">GM Sudarta</small></div>
+                                    <div class="item-text">Aku lupa, kapan aku kenal temanku yang satu ini...</div>
+                                  </div>
+                                </a>
+                              </li>
+                            </rekomendasi>
+                            <rekomendasi id="2">
+                              <li>
+                                <a href="/di-balik-jendela/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Di Balik Jendela</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Wilson Nadeak</small></div>
+                                    <div class="item-text">Hal yang paling kutakuti ialah sakit. Berulang-ulang istriku menganjurkan supaya aku memeriksakan diri ke dokter...</div>
+                                  </div>
+                                </a>
+                                <a href="/ia-ingin-mati-di-bulan-ramadhan-ini/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Ia Ingin Mati di Bulan Ramadhan Ini</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Agus Noor</small></div>
+                                    <div class="item-text">Betapa menyenangkan bila ia mati di bulan Ramadhan ini. Ia tak ingin kecewa lagi...</div>
+                                  </div>
+                                </a>
+                                <a href="/indrakila/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Indrakila</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Bre Redana</small></div>
+                                    <div class="item-text">Pensiun dari pekerjaannya di perusahaan surat kabar, lelaki itu pindah ke desa di ketinggian...</div>
+                                  </div>
+                                </a>
+                              </li>
+                            </rekomendasi>
+                            <rekomendasi id="3">
+                              <li>
+                                <a href="/pisau/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Pisau</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Yusrizal KW</small></div>
+                                    <div class="item-text">Rumah baru kami menghadap ke timur. Ketika pintu dibuka...</div>
+                                  </div>
+                                </a>
+                                <a href="/ajaran-kehidupan-seorang-nenek/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Ajaran Kehidupan Seorang Nenek</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Nh Dini</small></div>
+                                    <div class="item-text">Jauh-jauh aku datang, dimulai hari pertama aku sudah mendapat kekecewaan...</div>
+                                  </div>
+                                </a>
+                                <a href="/hari-baik/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Hari Baik</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Gde Aryantha Soethama</small></div>
+                                    <div class="item-text">Pendeta itu ringkih dan renta, jalannya perlahan, terbungkuk-bungkuk, kadang beberapa langkah ia berhenti mengatur napas...</div>
+                                  </div>
+                                </a>
+                              </li>
+                            </rekomendasi>
+                            <rekomendasi id="4">
+                              <li>
+                                <a href="/gadis-kecil-dan-perempuan-yang-terluka/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Gadis Kecil dan Perempuan yang Terluka</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Puthut EA</small></div>
+                                    <div class="item-text">Aku terjaga lagi, Bunda, tubuhku terasa sangat dingin seperti patung marmer putih yang senantiasa Bunda cuci dengan hati-hati...</div>
+                                  </div>
+                                </a>
+                                <a href="/saya-di-mata-sebagian-orang/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Saya di Mata Sebagian Orang</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Djenar Maesa Ayu</small></div>
+                                    <div class="item-text">Sebagian orang menganggap saya munafik. Sebagian lagi menganggap saya...</div>
+                                  </div>
+                                </a>
+                                <a href="/sepasang-kera-yang-berjalan-dari-pura-ke-pura/" class="item-link item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Sepasang Kera yang Berjalan dari Pura ke Pura</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Sunaryono Basuki Ks</small></div>
+                                    <div class="item-text">Sudahkah kau dengar kisah tentang sepasang kera yang berjalan kaki dari pura ke pura untuk...</div>
+                                  </div>
+                                </a>
+                              </li>
+                            </rekomendasi>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"><a href="/audiobook/" class="item-link item-content" data-animate="false"><satupaket>Dengarkan di &nbsp;<i class="icon f7-icons" style="font-size: 16px;bottom:2px;">headphones</i>&nbsp;&nbsp;Audiobook</satupaket></a></div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">Ebook</div>
+                      <div class="card-content card-content-padding">
+                        <div class="list media-list">
+                          <ul>
+                            <ebook id="1">
+                              <li>
+                                <a href="/legenda-batu-babi-dan-anjing/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/Legenda_Batu_Babi_dan_Anjing.jpg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Legenda Batu Babi dan Anjing</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Cerita Dari Kalimantan Tengah</small></div>
+                                    <div class="item-text">Badan Pengembangan dan Pembinaan Bahasa</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/jangan_takut_mencoba/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/jangan_takut_mencoba.jpeg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Jangan Takut Mencoba</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Komik Literasi Seri Pendidikan Moral</small></div>
+                                    <div class="item-text">Pendidikan.id</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/puasa/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/puasa.jpg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Puasa Wajib dan Sunnah</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Pendidikan Agama Islam dan Budi Pekerti</small></div>
+                                    <div class="item-text">Kementarian Agama RI</div>
+                                  </div>
+                                </a>
+                              </li>
+                            </ebook>
+                            <ebook id="2">
+                              <li>
+                                <a href="/karang-melenguh/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/Karang-Melenguh.jpg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Karang Melenguh</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Cerita Rakyat dari Sumatera Barat</small></div>
+                                    <div class="item-text">Badan Pengembangan dan Pembinaan Bahasa</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/sekolah-yes-nikah-muda-no-way/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/sekolah_yes_nikah_muda_no_way.jpeg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Sekolah Yes! Nikah Muda No Way!</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Komik Literasi Seri Pendidikan Moral</small></div>
+                                    <div class="item-text">Pendidikan.id</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/zakat/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/zakat.jpg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Zakat: Membersihkan dan Menyejahterakan</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Pendidikan Agama Islam dan Budi Pekerti</small></div>
+                                    <div class="item-text">Kementarian Agama RI</div>
+                                  </div>
+                                </a>
+                              </li>
+                            </ebook>
+                            <ebook id="3">
+                              <li>
+                                <a href="/bau-wangi-tarumenyan/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/Bau_Wangi_Tarumenyan.jpg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Bau Wangi Tarumenyan</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Cerita Rakyat dari Bali</small></div>
+                                    <div class="item-text">Badan Pengembangan dan Pembinaan Bahasa</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/haid-pertamaku/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/haid_pertamaku.jpeg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Haid Pertamaku</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Komik Literasi Seri Kesehatan</small></div>
+                                    <div class="item-text">Pendidikan.id</div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/jamakqasar/" class="item-link item-content">
+                                  <div class="item-media"><img src="img/jamakqasar.jpg" width="80"/></div>
+                                  <div class="item-inner">
+                                    <div class="item-title-row">
+                                      <div class="item-title">Shalat Jamak Qasar</div>
+                                    </div>
+                                    <div class="item-subtitle"><small style="color:#C8F6EC;">Pendidikan Agama Islam dan Budi Pekerti</small></div>
+                                    <div class="item-text">Kementarian Agama RI</div>
+                                  </div>
+                                </a>
+                              </li>
+                            </ebook>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"><a href="/ebook/" class="item-link item-content"><span>Ebook lainnya <i class="icon f7-icons" style="font-size: 14px">chevron_right</i></span></a></div>
+                    </div>
+                    <div class="card demo-facebook-card">
+                      <div class="card-header">
+                        <div class="demo-facebook-avatar"><i class="icon f7-icons" style="font-size: 34px;">play</i></div>
+                        <div class="demo-facebook-name">Video Biblio Club</div>
+                        <div class="demo-facebook-date">Literasi & Pendidikan Pemustaka</div>
+                      </div>
+                      <div class="card-content">
+                        <videoyoutube id="1">
+                          <div class="embed-container"><a href="/tips-menulis-cerpen-yang-bagus/" class="item-link item-content"><img style="width:100%;" src="img/tips-menulis-cerpen-yang-bagus.jpg"></a></div>
+                        </videoyoutube>
+                        <videoyoutube id="2">
+                          <div class="embed-container"><a href="/juara-menulis-cerpen/" class="item-link item-content"><img style="width:100%;" src="img/juara-menulis.jpg"></a></div>
+                        </videoyoutube>
+                        <videoyoutube id="3">
+                          <div class="embed-container"><a href="/menulis-drama/" class="item-link item-content"><img style="width:100%;" src="img/menulis-drama.jpg"></a></div>
+                        </videoyoutube>
+                      </div>
+                      <div class="card-footer"><a href="https://www.youtube.com/channel/UCkB3ruzb5VerCTc5vDlKKUQ" class="link external"><i class="icon f7-icons" style="font-size: 14px;">play_rectangle_fill</i>&nbsp;&nbsp;Youtube Channel</a><a href="https://www.youtube.com/channel/UCkB3ruzb5VerCTc5vDlKKUQ?sub_confirmation=1" class="link external">Subscribe</a></div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">Statistik</div>
+                      <div class="card-content card-content-padding">
+
+                        <div class="list media-list">
+                          <ul>
+                            <li>
+                              <a href="/statistik-koleksi/" class="item-link item-content">
+                                <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">chart_pie_fill</i></div>
+                                <div class="item-inner">
+                                  <div class="item-title-row">
+                                    <div class="item-title">Statistik Koleksi</div>
+                                  </div>
+                                  <div class="item-subtitle">Fiksi, Non Fiksi, Referensi</div>
+                                </div>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/statistik-pengunjung/" class="item-link item-content">
+                                <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">chart_bar_alt_fill</i></div>
+                                <div class="item-inner">
+                                  <div class="item-title-row">
+                                    <div class="item-title">Statistik Pengunjung</div>
+                                  </div>
+                                  <div class="item-subtitle">Tahun 2022</div>
+                                </div>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/statistik-peminjaman/" class="item-link item-content">
+                                <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">graph_square_fill</i></div>
+                                <div class="item-inner">
+                                  <div class="item-title-row">
+                                    <div class="item-title">Statistik Peminjaman</div>
+                                  </div>
+                                  <div class="item-subtitle">Tahun 2022</div>
+                                </div>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+
+                      </div>
+                      <div class="card-footer"><a href="/statistik/"><i class="icon f7-icons" style="font-size: 14px;">chart_bar_alt_fill</i>&nbsp;&nbsp;Lihat statistik lainnya</a></div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">Poster, Brosur, Leaflet</div>
+                      <div class="card-content">
+                        <poster id="1">
+                          <div class="embed-container"><a href="img/infografis1.jpeg" class="item-link item-content infografis1"><img style="width:100%;" src="img/infografis1.jpeg"></a></div>
+                        </poster>
+                        <poster id="1">
+                          <div class="embed-container"><a href="img/infografis1.jpeg" class="item-link item-content infografis1"><img style="width:100%;" src="img/infografis2.png"></a></div>
+                        </poster>
+                        <poster id="1">
+                          <div class="embed-container"><a href="img/infografis1.jpeg" class="item-link item-content infografis1"><img style="width:100%;" src="img/infografis3.png"></a></div>
+                        </poster>
+                      </div>
+                      <div class="card-footer"><a href="/poster/" class="item-link item-content"><span>Poster/Brosur lainnya <i class="icon f7-icons" style="font-size: 14px">chevron_right</i></span></a></div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">Audiobook (English)</div>
+                      <div class="card-content card-content-padding">
+                        <div class="container-audio">
+                          <audio style="width: 100%" controls loop>
+                            <source src="audio/friends.ogg" type="audio/ogg">
+                              Your browser dose not Support the audio Tag
+                            </audio>
+                          </div>
+                          <p>Audio Buku <b>"Usborne Story"</b> tersedia di English Corner Perpustakaan Twenty One</p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="list accordion-list accordion-opposite">
+                            <ul>
+                              <li class="accordion-item"><a class="item-content item-link" href="#">
+                                <div class="item-inner">
+                                  <div class="item-title" style="font-size: 14px;">Selengkapnya</div>
+                                </div>
+                              </a>
+                              <div class="accordion-item-content">
+                                <div class="block">
+                                  <p><small>Pemustaka dapat membaca buku ini sambil mendengarkan audionya</small></p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card demo-facebook-card">
+                      <div class="card-header">
+                        <div class="demo-facebook-avatar"><img src="img/logo.png" width="34" height="34"/></div>
+                        <div class="demo-facebook-name">Library Quotes</div>
+                        <div class="demo-facebook-date">Of The Day</div>
+                      </div>
+                      <div class="card-content">
+                        <blockquote>
+                          <p id="quotation"></p>
+                          <footer>
+                            <p style="color:#ffffff" id="source"></p>
+                            <p style="color:#C8F6EC" id="contoh"></p>
+                          </footer>
+                        </blockquote>
+                      </div>
+                      <div class="card-footer"><quotebutton><i class="icon f7-icons" style="font-size: 14px;">arrow_2_circlepath</i>&nbsp;&nbsp;Refresh</quotebutton></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end mediapembelajaran">Media Pembelajaran</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Ruang Referensi & Multimedia</p>
+                          <p class="white">Media Pembelajaran yang dikembangkan Perpustakaan Twenty One menyajikan informasi yang menarik dan interaktif.</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">sun_max</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/tatasurya/" class="link white">Sistem Tata Surya</a></div>
+                                </div>
+                                <div class="item-subtitle">Ilmu Pengetahuan Alam</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">table_badge_more</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/jamaqashar/" class="link white">Shalat Jamak Qashar</a></div>
+                                </div>
+                                <div class="item-subtitle">PAI & Budi Pekerti</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">thermometer_sun</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/tabelperiodik/" class="link white">Tabel Periodik Unsur</a></div>
+                                </div>
+                                <div class="item-subtitle">Ilmu Pengetahuan Alam</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">moon_stars</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/tahfidz/" class="link white">Program Tahfidz Quran</a></div>
+                                </div>
+                                <div class="item-subtitle">PAI & Budi Pekerti</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas<i class="icon f7-icons" style="font-size: 14px">chevron_right</i></span></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end bioskop">Bioskop 21</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Ruang Referensi & Multimedia</p>
+                          <p class="white">Mini teater dengan layar 4 meter memberikan pengalaman visual yang menarik untuk meningkatkan literasi dan hiburan edukatif</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">videocam</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/film/" class="link white">Nonton bareng</a></div>
+                                </div>
+                                <div class="item-subtitle">Lihat jadwal film yang diputar</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">calendar_badge_plus</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/reservasi/" class="link white">Reservasi ruangan</a></div>
+                                </div>
+                                <div class="item-subtitle">Jadwal pemakaian ruangan</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas<i class="icon f7-icons" style="font-size: 14px">chevron_right</i></span></div>
+                    </div>
+                  </div>
+                  <div class="col-100 xsmall-100 small-100 medium-50	large-50	xlarge-50">
+                    <div class="card">
+                      <div class="card-header">Display Buku Baru</div>
+                      <div class="card-content card-content-padding">
+                        <div class="list media-list">
+                          <ul>
+                            <bukubaru id="1">
+                              <div class="row card-content-padding">
+                                <div class="col-50 xsmall-50 small-50 medium-25 large-25	xlarge-25" ><img src="img/puasa.jpg" width="100%"/></div>
+                                <div class="col-50 xsmall-50 small-50 medium-25 large-25	xlarge-25"><img src="img/puasa.jpg" width="100%"/></div>
+                                <div class="col-50 xsmall-50 small-50 medium-25 large-25	xlarge-25"><img src="img/puasa.jpg" width="100%"/></div>
+                                <div class="col-50 xsmall-50 small-50 medium-25 large-25	xlarge-25"><img src="img/puasa.jpg" width="100%"/></div>
+                              </div>
+                            </bukubaru>
+
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"><a href="/ebook/" class="item-link item-content"><span>Ebook lainnya <i class="icon f7-icons" style="font-size: 14px">chevron_right</i></span></a></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end englishcorner">English Corner</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Koleksi khusus berbahasa Inggris</p>
+                          <p class="white">Yuk belajar bahasa inggris - bahasa internasional - untuk bekal menjelajahi dunia!. English is a way!</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">headphones</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/audiolibrary/" class="link white">Audio Library</a></div>
+                                </div>
+                                <div class="item-subtitle">Koleksi audio bahasa Inggris</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">book</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/bukuenglish/" class="link white">Koleksi buku cetak</a></div>
+                                </div>
+                                <div class="item-subtitle">Berbahasa Inggris</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">device_desktop</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/natgeoenglish/" class="link white">Majalah Digital</a></div>
+                                </div>
+                                <div class="item-subtitle">National Geographic Edisi US</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas</span></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end englishcorner">Podcast @Library</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Wijayadi x Farid Podcast</p>
+                          <p class="white">Cara baru membaca untuk generasi millenial / Gen Y, tersedia Ebook dan Audiobook!</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">mic</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/mic/" class="link white">Condenser mic</a></div>
+                                </div>
+                                <div class="item-subtitle">Lihat peralatan Podcast</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">play</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/podcast/" class="link white">Produk</a></div>
+                                </div>
+                                <div class="item-subtitle">Lihat produk podcast</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas</span></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end englishcorner">Layanan Anak</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Playgrond di perpustakaan</p>
+                          <p class="white">Layanan yang ditujukan untuk anak-anak, termasuk mendongeng, layanan membaca, dan lainnya.</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">rocket</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/permainan/" class="link white">Tempat bermain</a></div>
+                                </div>
+                                <div class="item-subtitle">Lihat fasilitas permainan</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">book</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/bukuanak/" class="link white">Buku anak-anak</a></div>
+                                </div>
+                                <div class="item-subtitle">Tingkatkan minat baca anak</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">book</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/bercerita/" class="link white">Layanan bercerita</a></div>
+                                </div>
+                                <div class="item-subtitle">Medongeng & membaca</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas</span></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end englishcorner">Fasilitas Keamanan</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Akses jarak jauh</p>
+                          <p class="white">Membantu memberikan kenyamanan dan keamanan selama berada di perpustakaan.</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">videocam</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/cctv/" class="link white">IP Camera</a></div>
+                                </div>
+                                <div class="item-subtitle">24 jam pengawasan</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">lock_slash</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/locker/" class="link white">Locker penitipan</a></div>
+                                </div>
+                                <div class="item-subtitle">Penyimpanan tas / barang</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">wifi_slash</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/mikrotik/" class="link white">Mikrotik</a></div>
+                                </div>
+                                <div class="item-subtitle">Pengaman wifi</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas</span></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end englishcorner">Layanan Internet</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Internet gratis untuk pemustaka</p>
+                          <p class="white">Jelajahi semestailmu pengetahuan bersama Perpustakaan Twety One!</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">wifi</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/wifiarea/" class="link white">Wifi Area</a></div>
+                                </div>
+                                <div class="item-subtitle">Lihat jangkauan area</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">qrcode</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/password/" class="link white">Request password</a></div>
+                                </div>
+                                <div class="item-subtitle">Dapatkan kode akses wifi</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">device_laptop</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/komputer/" class="link white">Fasilitas Komputer</a></div>
+                                </div>
+                                <div class="item-subtitle">Online & Gratis!</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas</span></div>
+                    </div>
+                    <div class="card">
+                      <div class="card demo-card-header-pic">
+                        <div class="card-header align-items-flex-end englishcorner">Print & Fotokopi</div>
+                        <div class="card-content card-content-padding">
+                          <p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Fasilitas printer di Perpustakaan</p>
+                          <p class="white">Manfaatkan berbagai fasilitas dan layanan lain: Print, Scan, Fotokopi, laminating.</p>
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <div class="list media-list">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">printer</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/print/" class="link white">Print</a></div>
+                                </div>
+                                <div class="item-subtitle">Gratis untuk biblio club!</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">doc_on_doc</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/fotokopi/" class="link white">Fotokopi</a></div>
+                                </div>
+                                <div class="item-subtitle">Fotokopi di perpus, bisa!</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">doc_text_viewfinder</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/scan/" class="link white">Scan</a></div>
+                                </div>
+                                <div class="item-subtitle">Scan A4/F4 Dokumen</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">doc_richtext</i></div>
+                              <div class="item-inner">
+                                <div class="item-title-row">
+                                  <div class="item-title"><a href="/laminating/" class="link white">Laminating</a></div>
+                                </div>
+                                <div class="item-subtitle">Khusus dokumen tertentu</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer"> <span>Layanan dan Fasilitas</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
 
     </div>
 
   </div>
 
-  <script src="core/js/framework7.bundle.js"></script>
-  <script src="js/routes.js"></script>
-  <script src="js/app.js"></script>
-  <script src='js/jquery.js'></script>
-  <script src='js/rekomendasi.js'></script>
-  <script src="js/greeting.js"></script>
-  <script src="js/login.js"></script>
-  <script src="js/type-promise.js"></script>
-  <script src="js/kaidahfiqih.js"></script>
-  <script src="js/timeout.js"></script>
-  <script src="js/open-sheet.js"></script>
+</div>
+
+<script src="core/js/framework7.bundle.js"></script>
+<script src="js/routes.js"></script>
+<script src="js/app.js"></script>
+<script src='js/jquery.js'></script>
+<script src='js/rekomendasi.js'></script>
+<script src="js/greeting.js"></script>
+<script src="js/quotes.js"></script>
+<script src="js/open-sheet.js"></script>
+<script src="js/jquery.openStatus.js"></script>
+<script src="js/jambuka.js"></script>
+<script src="js/gambar.js"></script>
 
 </body>
 </html>
