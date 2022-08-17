@@ -4872,7 +4872,7 @@ li.media-item .item-link .item-inner:before {
 }
 .media-list .item-link .item-title-row:before,
 li.media-item .item-link .item-title-row:before {
-  right: 0;
+  right: 0;  display: none;
 }
 .list-group ul:after,
 .list-group ul:before {

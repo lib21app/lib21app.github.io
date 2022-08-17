@@ -1,2 +1,3 @@
 papan pengumuman
-display buku baru
+pendidikan pemustaka
+denah ruang

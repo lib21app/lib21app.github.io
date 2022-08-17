@@ -79,6 +79,12 @@ html {
 }
 
 
+.card-footer {
+  display: block;
+  padding: 0px;
+}
+
+
 
 
 .white {
@@ -138,4 +144,20 @@ html {
 
  .quran {
   background-image:url(../img/quran.jpeg)
+ }
+
+ .mikrotik {
+  background-image:url(../img/mikrotik.jpg)
+ }
+
+ .bardi {
+  background-image:url(../img/bardi.jpeg)
+ }
+
+ .loker {
+  background-image:url(../img/loker.jpg)
+ }
+
+ .multimedia {
+  background-image:url(../img/multimedia.jpeg)
  }
