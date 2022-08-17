@@ -72,7 +72,7 @@ html {
 .tablet-only {
   display: none;
 }
-@media (min-width: 798px) {
+@media (min-width: 768px) {
 .tablet-only {
   display: block;
 }
