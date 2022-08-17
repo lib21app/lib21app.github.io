@@ -89,7 +89,7 @@ html {
  background-image:url(../img/bioskop.jpg)
 }
 
-.mediapembelajaran {
+.tatasurya {
  background-image:url(../img/tatasurya.jpg)
 }
 
@@ -116,3 +116,15 @@ html {
 .rapat {
  background-image:url(../img/rapat.jpeg)
 }
+
+.shalat {
+  background-image:url(../img/shalat.jpg)
+ }
+
+ .tabelperiodik {
+  background-image:url(../img/tabel-periodik.png)
+ }
+
+ .quran {
+  background-image:url(../img/quran.jpeg)
+ }
