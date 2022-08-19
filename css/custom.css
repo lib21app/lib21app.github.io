@@ -68,6 +68,11 @@ html {
 }
 
 
+.page-content{overflow-y:auto; overflow-x:hidden !important;}
+
+
+
+
 
 .tablet-only {
   display: none;

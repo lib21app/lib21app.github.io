@@ -264,8 +264,8 @@ div.demo-lazy {
 }
 .demo-swiper-multiple .swiper-slide {
   box-sizing: border-box;
-  border: 1px solid #ccc;
-  background: #fff;
+  border: 0px solid #ccc;
+  background: none;
 }
 .demo-swiper-multiple {
   margin: 0px 0 35px;
