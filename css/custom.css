@@ -91,6 +91,18 @@ html {
 
 
 
+#status {
+
+}
+#status.online {
+  color: #FFFFFF;
+}        
+#status.offline {
+  color: red;
+}
+
+
+
 
 .white {
  color:#dddddd;
@@ -177,5 +189,9 @@ html {
 
  .englishcorner2 {
   background-image:url(../img/englishcorner.jpeg)
+ }
+ 
+ .natgeo {
+  background-image:url(../img/natgeo.jpg)
  }
  
