@@ -319,6 +319,11 @@ var routes = [
   path: '/menulis-drama/',
   componentUrl: './video/menulis-drama.html',
 },
+// RESENSI
+{
+  path: '/ngegas-dan-ngerem/',
+  componentUrl: './resensi/ngegas-dan-ngerem.html',
+},
 // Default route (404 page). MUST BE THE LAST
 {
   path: '(.*)',
