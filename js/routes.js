@@ -41,6 +41,10 @@ var routes = [
   componentUrl: './pages/poster.html',
 },
 {
+  path: '/denah/',
+  componentUrl: './pages/denah.html',
+},
+{
   path: '/literasi/',
   componentUrl: './pages/literasi.html',
 },

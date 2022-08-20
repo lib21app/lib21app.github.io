@@ -28,7 +28,7 @@ $(elems[i]).hide();
 }
 }
 
-var elems = $("ushulfiqihcom");
+var elems = $("literasi");
 if (elems.length) {
 var keep = Math.floor(Math.random() * elems.length);
 for (var i = 0; i < elems.length; ++i) {
