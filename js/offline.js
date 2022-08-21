@@ -1,14 +1,14 @@
-var hint = document.getElementById("hint");
+var hint = document.getElementById("komunitas");
     
 // Defining function to update connection status
 function updateConnectionStatus() {  
-    var status = document.getElementById("status");
+    var status = document.getElementById("statuskomunitas");
     if(navigator.onLine) {
-        status.innerHTML = "Online";
+        status.innerHTML = "Komunitas";
         status.classList.add("online");
         status.classList.remove("offline");                        
     } else {
-        status.innerHTML = "You are offline, check your internet connection";
+        status.innerHTML = "Offline, No internet.";
         status.classList.add("offline");
         status.classList.remove("online");            
     }
