@@ -37,6 +37,10 @@ var routes = [
 },
 //PATH
 {
+  path: '/tatasurya/',
+  componentUrl: './fasilitas/tatasurya.html',
+},
+{
   path: '/poster/',
   componentUrl: './pages/poster.html',
 },
@@ -214,10 +218,6 @@ var routes = [
 {
   path: '/natgeoenglish/',
   componentUrl: './fasilitas/natgeoenglish.html',
-},
-{
-  path: '/tatasurya/',
-  componentUrl: './fasilitas/tatasurya.html',
 },
 {
   path: '/jamaqashar/',
