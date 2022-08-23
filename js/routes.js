@@ -35,11 +35,27 @@ var routes = [
   url: './pages/start.html',
   name: 'home',
 },
-//PATH
 {
   path: '/tatasurya/',
-  componentUrl: './fasilitas/tatasurya.html',
+  url: './fasilitas/tatasurya.html',
+  name: 'home',
 },
+{
+  path: '/tabelperiodik/',
+  url: './fasilitas/tabelperiodik.html',
+  name: 'home',
+},
+{
+  path: '/jamaqashar/',
+  url: './fasilitas/jamaqashar.html',
+  name: 'home',
+},
+{
+  path: '/tahfidz/',
+  url: './fasilitas/tahfidz.html',
+  name: 'home',
+},
+//PATH
 {
   path: '/poster/',
   componentUrl: './pages/poster.html',
@@ -222,10 +238,6 @@ var routes = [
 {
   path: '/jamaqashar/',
   componentUrl: './fasilitas/jamaqashar.html',
-},
-{
-  path: '/tabelperiodik/',
-  componentUrl: './fasilitas/tabelperiodik.html',
 },
 {
   path: '/tahfidz/',
