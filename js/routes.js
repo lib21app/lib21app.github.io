@@ -26,6 +26,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/akun/',
+  url: './pages/akun.html',
+  name: 'home',
+},
+{
   path: '/todo/',
   url: './pages/todo.html',
   name: 'home',
@@ -103,10 +108,6 @@ var routes = [
 {
   path: '/panduan/',
   componentUrl: './pages/panduan.html',
-},
-{
-  path: '/akun/',
-  componentUrl: './pages/akun.html',
 },
 // Privacy
 {
