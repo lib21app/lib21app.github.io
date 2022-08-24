@@ -3066,9 +3066,9 @@ html.device-full-viewport body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
-  margin-left: 50%;
+  margin-left: 0;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
