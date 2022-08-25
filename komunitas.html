@@ -16,53 +16,6 @@
   <link rel="apple-touch-icon" href="img/logo.png">
   <link rel="icon" href="img/logo.png">
 
-  <link rel="stylesheet" href="css/type-promise.css">
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="css/horizontal.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/kaidahfiqih.css">
-
-  <script>    
-    var hint = document.getElementById("beranda");
-    
-    // Defining function to update connection status
-    function updateConnectionStatus() {  
-        var status = document.getElementById("status");
-        if(navigator.onLine) {
-            status.innerHTML = "Literasi";
-            status.classList.add("online");
-            status.classList.remove("offline");                        
-        } else {
-            status.innerHTML = "Offline, No internet.";
-            status.classList.add("offline");
-            status.classList.remove("online");            
-        }
-    }
-
-    // Attaching event handler for the load event
-    window.addEventListener("load", updateConnectionStatus);
-    </script>
-      <script>    
-        var hint = document.getElementById("spentop");
-        
-        // Defining function to update connection status
-        function updateConnectionStatus() {  
-            var status = document.getElementById("notifikasi");
-            if(navigator.onLine) {
-                status.innerHTML = "";
-                status.classList.add("online");
-                status.classList.remove("offline");                        
-            } else {
-                status.innerHTML = "⚠️ Ebook, Audiobook dan komunitas membutuhkan koneksi internet<br/><br/>";
-                status.classList.add("offline");
-                status.classList.remove("online");            
-            }
-        }
-    
-        // Attaching event handler for the load event
-        window.addEventListener("load", updateConnectionStatus);
-        </script>
-
 </head>
 
 <body class="theme-dark">
@@ -91,29 +44,24 @@
           </div>
 
           <div class="block">
-            <a href="index.html" class="link external panel-close" data-animate="false" style="color:#ffffff"><i
+            <a href="http://localhost/index.html" class="link external panel-close" data-animate="false" style="color:#ffffff"><i
                 class="icon f7-icons" style="font-size:24px">house</i> &nbsp;&nbsp;&nbsp;Literasi</a><br /><br />
-            <a href="/ebook/" class="panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons"
+            <a href="http://localhost/index.html#!/ebook/" class="external panel-close" data-animate="false" style="color:#ffffff"><i class="icon f7-icons"
                   style="font-size:24px">book</i> &nbsp;&nbsp;&nbsp;Digital Library</a><br /><br />
-            <a href="/audiobook/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+            <a href="http://localhost/index.html#!/audiobook/" class="external panel-close" style="color:#ffffff"><i class="icon f7-icons"
                     style="font-size:24px">headphones</i> &nbsp;&nbsp;&nbsp;Audiobook</a><br /><br />
-            <a href="/komunitas/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+            <a href="https://library.smpn21purworejo.sch.id/komunitas.html" class="external panel-close" style="color:#ffffff"><i class="icon f7-icons"
                 style="font-size:24px">bubble_left_bubble_right</i> &nbsp;&nbsp;&nbsp;Komunitas</a><br /><br />
-            <a href="/todo/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+            <a href="http://localhost/index.html#!/todo/" class="external panel-close" style="color:#ffffff"><i class="icon f7-icons"
                   style="font-size:24px">pencil</i> &nbsp;&nbsp;&nbsp;Catatanku</a><br /><br />
           </div>
 
           <hr style="height:1px;border-width:0;color:#333333;background-color:#333333">
           <div class="block">
-            <p>Versi aplikasi: 2022 (Agustus)</p>
+            <p>Versi aplikasi:<br/>v3.0 - 2022 (Agustus)</p>
           </div>
           <div class="block">
-            <a href="/about/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
-                style="font-size:22px">info_circle</i>&nbsp;&nbsp;&nbsp;Tentang</a><br /><br />
-            <a href="https://library.smpn21purworejo.sch.id" class="panel-close link external" style="color:#ffffff"><i
-                class="icon f7-icons" style="font-size:22px">link</i>&nbsp;&nbsp;&nbsp;Online</a><br /><br />
-            <a href="/error/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
-                style="font-size:22px">info_circle</i>&nbsp;&nbsp;&nbsp;404</a>
+            <a href="https://play.google.com/store/apps/details?id=id.sch.smpn21purworejo.library" class="external panel-close" style="color:#ffffff">Periksa Update</a>
           </div>
         </div>
       </div>
@@ -131,7 +79,7 @@
                   src="img/logo.png" style="width: 30px;">
               </div>
             </a>
-            <a href="http://localhost/komunitas/" data-animate="false" class="link tab-link-active"><i class="icon f7-icons">captions_bubble</i></a>
+            <a href="https://library.smpn21purworejo.sch.id/komunitas.html" data-animate="false" class="link external tab-link-active"><i class="icon f7-icons">captions_bubble</i></a>
             <a href="http://localhost/index.html#!/todo/" data-animate="false" class="link external"><i class="icon f7-icons">pencil</i></a>
           </div>
         </div>
@@ -151,7 +99,7 @@
                 </svg>
               </a>
             </div>
-            <div class="title" id="status">SMPN 21 Purworejo</div>
+            <div class="title">Komunitas</div>
           </div>
         </div>
 
@@ -169,8 +117,6 @@
   <script src="core/js/framework7.bundle.js"></script>
   <script src="js/routes.js"></script>
   <script src="js/app.js"></script>
-  <script src='js/jquery.js'></script>
-  <script src="js/offline.js"></script>
 
 </body>
 
