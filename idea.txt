@@ -3,6 +3,15 @@ pendidikan pemustaka
 denah ruang
 reward
 
+====
+sn in
+https://komunitas.smpn21purworejo.sch.id/entry/signin?Target=activity
+register
+https://komunitas.smpn21purworejo.sch.id/entry/register?Target=activity
+
+.Panel-main {
+    display: none;
+}
 
 
 ===========
