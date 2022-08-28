@@ -1,94 +1,40 @@
-<template>
-	<div class="page">
+<div class="page no-toolbar">
 
-		<div class="navbar">
-			<div class="navbar-bg" style="background-color:#121212"></div>
-			<div class="navbar-inner sliding">
-				<div class="left">
-					<a class="link back" data-animate="false">
-						<i class="icon icon-back"></i>
-						<span class="if-not-md">Back</span>
-					</a>
-				</div>
-				<div class="title">English Corner</div>
-			</div>
+	<div class="navbar">
+		<div class="navbar-bg gelap"></div>
+		<div class="navbar-inner sliding">
+		  <div class="left">
+			<a href="#" class="link icon-only panel-open" data-panel="left">
+			  <svg viewBox="0 0 100 80" width="40" height="40" style="fill: white">
+				<rect y="5" width="90" height="8"></rect>
+				<rect y="30" width="90" height="8"></rect>
+				<rect y="55" width="90" height="8"></rect>
+			  </svg>
+			</a>
+		  </div>
+		<div class="title">English Corner</div>
 		</div>
-		<!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
-		<div class="page-content hide-navbar-on-scroll">
-			<div class="block">
-
-				<div class="card">
-					<div class="card demo-card-header-pic">
-						<div class="card-header align-items-flex-end englishcorner">English Corner</div>
-						<div class="card-content card-content-padding">
-							<p class="date"><i class="icon f7-icons md-only" style="font-size: 14px">camera</i> Koleksi
-								khusus berbahasa Inggris</p>
-							<p class="white">Yuk belajar bahasa inggris - bahasa internasional - untuk bekal menjelajahi
-								dunia!. English is a way!</p>
-						</div>
-					</div>
-					<div class="card-content">
-						<div class="list media-list">
-							<ul>
-								<li class="item-content">
-									<div class="item-media"><i class="icon f7-icons"
-											style="font-size: 34px;">headphones</i></div>
-									<div class="item-inner">
-										<div class="item-title-row">
-											<div class="item-title"><a href="/audiolibrary/" class="link white">Audio
-													Library</a></div>
-										</div>
-										<div class="item-subtitle">Koleksi audio bahasa Inggris</div>
-									</div>
-								</li>
-								<li class="item-content">
-									<div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">book</i>
-									</div>
-									<div class="item-inner">
-										<div class="item-title-row">
-											<div class="item-title"><a href="/bukuenglish/" class="link white">Koleksi
-													buku cetak</a></div>
-										</div>
-										<div class="item-subtitle">Berbahasa Inggris</div>
-									</div>
-								</li>
-								<li class="item-content">
-									<div class="item-media"><i class="icon f7-icons"
-											style="font-size: 34px;">device_desktop</i></div>
-									<div class="item-inner">
-										<div class="item-title-row">
-											<div class="item-title"><a href="/natgeoenglish/" class="link white">Majalah
-													Digital</a></div>
-										</div>
-										<div class="item-subtitle">National Geographic Edisi US</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="card-footer"> <span>Layanan dan Fasilitas</span></div>
-				</div>
-
-			</div>
-		</div>
-
 	</div>
-</template>
-<script>
-	return {
-		methods: {
-			openAlert: function () {
-				var app = this.$app;
-				app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
-			},
-			openPrompt: function () {
-				var app = this.$app;
-				app.dialog.prompt('Admin / Editor Password', function (name) {
-					app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
-						app.dialog.alert('Unknown password: ' + name);
-					});
-				});
-			},
-		}
-	}
-</script>
+	
+	<div class="toolbar tabbar-labels toolbar-bottom" style="background-color:#121212">
+	  <div class="toolbar-inner">
+		<a href="/ebook/" data-animate="false" class="link"><i class="icon f7-icons">book</i></a>
+		<a href="/audiobook/" data-animate="false" class="link"><i class="icon f7-icons">headphones</i></a>
+		<a href="index.html" data-animate="false" class="link external">
+		  <div style="position: absolute; bottom: 10px; z-index: 9999; line-height: 1em;"><img
+			  src="img/logo.png" style="width: 30px;">
+		  </div>
+		</a>
+		<a href="/englishcorner/" data-animate="false" class="link tab-link-active"><i class="icon f7-icons">bubble_left_bubble_right</i></a>
+		<a href="/todo/" data-animate="false" class="link"><i class="icon f7-icons">pencil</i></a>
+	  </div>
+	</div>
+	
+	  <div class="page-content-audiobook">
+	
+	<iframe src="englishcorner/index.html" frameborder="0" style="position: absolute; float: left; clear: both; width: 100%; height: 100%; z-index: 0; left no-repeat; "></iframe>
+	
+	  </div>
+	  
+	</div>
+	

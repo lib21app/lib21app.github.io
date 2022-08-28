@@ -60,6 +60,11 @@ var routes = [
   url: './fasilitas/tahfidz.html',
   name: 'home',
 },
+{
+  path: '/englishcorner/',
+  url: './pages/englishcorner.html',
+  name: 'home',
+},
 //PATH
 {
   path: '/poster/',
