@@ -1,118 +1,94 @@
 <template>
-<div class="page">
+  <div class="page">
 
-  <div class="navbar">
-    <div class="navbar-bg" style="background-color:#121212"></div>
-    <div class="navbar-inner sliding">
-      <div class="left">
-        <a class="link back" data-animate="false">
-          <i class="icon icon-back"></i>
-          <span class="if-not-md">Back</span>
-        </a>
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color:#121212"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a class="link back" data-animate="false">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Statistik</div>
       </div>
-      <div class="title">Statistik</div>
     </div>
-  </div>
-  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
-  <div class="page-content hide-navbar-on-scroll">
-      <div class="block">
-        <h1>Statistik Peminjaman</h1>
-		<h3>SMPN 21 Purworejo</h3>
-		<br/>
-                  <div class="card">
-            				<div class="card-header">Statistik</div>
-            				<div class="card-content card-content-padding">
-							    <statistik id="1">
-            					<div id="piechart"></div>
-            					</statistik>
-							    <statistik id="2">
-            					<div id="columnchart_values"></div>
-            					</statistik>
-							</div>
-            				<div class="card-footer"><a href="/statistik/"><i class="icon f7-icons" style="font-size: 14px;">chart_bar_alt_fill</i>&nbsp;&nbsp;Lihat statistik lainnya</a></div>
-            			</div>
-      </div>
-  </div>
-
-</div>
-</template>
 
 
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
+      google.charts.load("current", { packages: ['corechart'] });
       google.charts.setOnLoadCallback(drawChart);
-
       function drawChart() {
-
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['Non Fiksi',     1915],
-          ['Fiksi',      757],
-          ['Referensi',  385]
+          ["Element", "Jumlah peminjaman", { role: "style" }],
+          ["Komputer, informasi dan referensi umum", 64, "#b87333"],
+          ["Filsafat dan psikologi", 164, "silver"],
+          ["Agama", 756, "gold"],
+          ["Ilmu sosial", 1047, "color: #e5e4e2"],
+          ["Bahasa", 1697, "color: #e5e4e2"],
+          ["Sains dan matematika", 4862, "color: #e5e4e2"],
+          ["Teknologi atau Ilmu terapan", 1279, "color: #e5e4e2"],
+          ["Kesenian dan rekreasi", 2650, "color: #e5e4e2"],
+          ["Sastra", 6463, "color: #e5e4e2"],
+          ["Sejarah dan geografi", 214, "color: #e5e4e2"],
         ]);
 
+        var view = new google.visualization.DataView(data);
+        view.setColumns([0, 1,
+          {
+            calc: "stringify",
+            sourceColumn: 1,
+            type: "string",
+            role: "annotation"
+          },
+          2]);
+
         var options = {
-          title: 'Total Eksemplar Menurut Jenis Koleksi',
-		  backgroundColor: '#1c1c1d',
-		  legend: {
-			textStyle: {
-				color: '#ffffff',
-			},
-			position: 'bottom'
-		  },
-		  titleTextStyle: {
-			color: '#ffffff', fontSize: 16,
-		  },
-		  chartArea:{left:0,top:0,width:'100%',height:'80%'},
+          title: "Density of Precious Metals, in g/cm^3",
+          backgroundColor: '#1c1c1d',
+          bar: { groupWidth: "95%" },
+
+          legend: {
+            textStyle: {
+              color: '#ffffff',
+            },
+            position: 'none'
+          },
+          titleTextStyle: {
+            color: '#ffffff', fontSize: 16,
+          },
+          chartArea: { left: 0, top: 0, width: '100%', height: '80%' },
         };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
+        var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+        chart.draw(view, options);
       }
     </script>
 
-  <script type="text/javascript">
-    google.charts.load("current", {packages:['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
-    function drawChart() {
-      var data = google.visualization.arrayToDataTable([
-        ["Element", "Jumlah pengunjung", { role: "style" } ],
-        ["Jan", 831, "#b87333"],
-        ["Feb", 513, "silver"],
-        ["Mar", 80, "gold"],
-        ["Apr", 142, "color: #e5e4e2"],
-		["Mei", 106, "color: #e5e4e2"],
-		["Jun", 201, "color: #e5e4e2"],
-		["Jul", 178, "color: #e5e4e2"],
-      ]);
+    <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+    <div class="page-content hide-navbar-on-scroll">
+      <div class="block">
+        <h1>Statistik Peminjaman Perpustakaan Twenty One berdasarkan Klasifikasi</h1>
+        <h3>2018 - 2022 (5 Tahun)</h3>
+        <br />
+        Statistik Peminjaman berdasarkan Klasifikasi memuat informasi jumlah peminjaman berdasarkan klasifikasi buku. Klasifikasi yang dimaksud yaitu Komputer, informasi dan referensi umum, Filsafat dan psikologi, Agama, Ilmu sosial, Bahasa, Sains dan matematika, Teknologi atau Ilmu terapan, Kesenian dan rekreasi, Sastra, Sejarah dan geografi.
+        <br /><br />
+        <div class="card">
+          <div class="card-header">Januari - Juli 2022</div>
+          <div class="card-content card-content-padding">
+            <div id="columnchart_values"></div>
+          </div>
+          <div class="card-footer">
+            <div class="list accordion-list accordion-opposite">
+              <a href="/statistik/" class="item-link item-content"><span>Lihat statistik lainnya</span></a>
+            </div>
+          </div>
+        </div>
+        <br />
+        Catatan:<br />
+        Statistik tidak muncul jika koneksi internet offline<br />
+        Statistik diperbarui jika ada perubahan data.
+      </div>
+    </div>
 
-      var view = new google.visualization.DataView(data);
-      view.setColumns([0, 1,
-                       { calc: "stringify",
-                         sourceColumn: 1,
-                         type: "string",
-                         role: "annotation" },
-                       2]);
-
-      var options = {
-        title: "Density of Precious Metals, in g/cm^3",
-		backgroundColor: '#1c1c1d',
-        bar: {groupWidth: "95%"},
-
-		  legend: {
-			textStyle: {
-				color: '#ffffff',
-			},
-			position: 'none'
-		  },
-		  titleTextStyle: {
-			color: '#ffffff', fontSize: 16,
-		  },
-		  chartArea:{left:0,top:0,width:'100%',height:'80%'},
-      };
-      var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
-      chart.draw(view, options);
-  }
-  </script>
+  </div>
+</template>
