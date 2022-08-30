@@ -1,49 +1,40 @@
 <template>
-<div class="page">
+  <div class="page">
 
-  <div class="navbar">
-    <div class="navbar-bg" style="background-color:#121212"></div>
-    <div class="navbar-inner sliding">
-      <div class="left">
-        <a class="link back" data-animate="false">
-          <i class="icon icon-back"></i>
-          <span class="if-not-md">Back</span>
-        </a>
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color:#121212"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a class="link back" data-animate="false">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Layanan Anak</div>
       </div>
-      <div class="title">Layanan Anak</div>
     </div>
-  </div>
-  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
-  <div class="page-content hide-navbar-on-scroll">
+    <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+    <div class="page-content hide-navbar-on-scroll">
       <div class="block">
-        <h1>Layanan Bercerita</h1>
-		<h3>Edit</h3>
-		<br/>
-							<p>Edit</p>
-							
-							<p>Edit</p>
-							
-							<p>#SalamLiterasi</p>
-      </div>
-  </div>
+        <h1>Layanan Bercerita (Story Telling)</h1>
+        <h3>Secara umum, semua anak-anak senang mendengarkan cerita</h3>
+        <br />
+        <img src="img/bercerita.jpeg" width="100%" />
+        <p>Perpustakaan tidak hanya berfungsi sebagai tempat untuk meminjamkan buku ataupun bahan pustaka lainnya, namun saat
+          ini perpustakaan semakin berkembang fungsinya. Misalnya adalah layanan bercerita, mendongeng atau yang lebih sering
+          disebut dengan istilah storytelling.</p>
+        <p>Layanan Bercerita (Storytelling) bertujuan untuk mengenalkan
+          perpustakaan dan membaca kepada anak sejak usia dini. Storytelling dengan menggunakan buku akan mengakrabkan anak-anak dengan buku, diharapkan dapat membuat anak-anak mulai mencintai buku. Bercerita juga dapat menjadi stimulasi yang efektif untuk menumbuhkan minat baca bagi anak-anak.</p>
 
-</div>
+          
+          
+          <p>Dunia kehidupan anak itu penuh dengan suka cita, kegiatan bercerita di perpustakaan Twenty One diusahakan dapat memberikan perasaan gembira, lucu dan mengasyikan. Ada beberapa macam teknik bercerita yang dapat dipergunakan antara lain, dapat membaca langsung dari buku gambar, menggunakan papan flanel, menggunakan boneka, bermain peran dalam suatu cerita.</p>
+
+        <p>Bercerita atau  Mendorong anak untuk mendengarkan cerita memiliki efek positif terhadap kecerdasan bahasanya, termasuk meningkatkan minat bacanya anak.</p>
+
+        <p>#SalamLiterasi</p>
+      </div>
+    </div>
+
+  </div>
 </template>
-<script>
-  return {
-    methods: {
-      openAlert: function () {
-        var app = this.$app;
-        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
-      },
-      openPrompt: function () {
-        var app = this.$app;
-        app.dialog.prompt('Admin / Editor Password', function (name) {
-          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
-            app.dialog.alert('Unknown password: ' + name);
-          });
-        });
-      },
-    }
-  }
-</script>

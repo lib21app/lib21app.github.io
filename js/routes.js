@@ -84,7 +84,27 @@ var routes = [
 },
 {
   path: '/bioskop/',
-  componentUrl: './pages/bioskop.html',
+  componentUrl: './fasilitas/bioskop.html',
+},
+{
+  path: '/cerpen/',
+  componentUrl: './pages/cerpen.html',
+},
+{
+  path: '/smarttv/',
+  componentUrl: './fasilitas/smarttv.html',
+},
+{
+  path: '/internet/',
+  componentUrl: './fasilitas/internet.html',
+},
+{
+  path: '/englishcornertext/',
+  componentUrl: './fasilitas/englishcornertext.html',
+},
+{
+  path: '/layanananak/',
+  componentUrl: './fasilitas/layanananak.html',
 },
 {
   path: '/profil/',
