@@ -134,6 +134,10 @@ var routes = [
   path: '/panduan/',
   componentUrl: './pages/panduan.html',
 },
+{
+  path: '/panduan-ec/',
+  componentUrl: './pages/panduan-ec.html',
+},
 // Privacy
 {
   path: '/privacy/',
