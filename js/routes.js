@@ -361,6 +361,14 @@ var routes = [
   path: '/menulis-drama/',
   componentUrl: './video/menulis-drama.html',
 },
+{
+  path: '/meminjam-buku/',
+  componentUrl: './video/meminjam-buku.html',
+},
+{
+  path: '/adiwiyata/',
+  componentUrl: './video/adiwiyata.html',
+},
 // RESENSI
 {
   path: '/ngegas-dan-ngerem/',
