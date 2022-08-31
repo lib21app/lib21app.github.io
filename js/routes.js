@@ -374,6 +374,22 @@ var routes = [
   path: '/ngegas-dan-ngerem/',
   componentUrl: './resensi/ngegas-dan-ngerem.html',
 },
+{
+  path: '/jangan-membuat-masalah/',
+  componentUrl: './resensi/jangan-membuat-masalah.html',
+},
+{
+  path: '/semua-untuk-hindia/',
+  componentUrl: './resensi/semua-untuk-hindia.html',
+},
+{
+  path: '/bodo-amat/',
+  componentUrl: './resensi/bodo-amat.html',
+},
+{
+  path: '/talijiwo/',
+  componentUrl: './resensi/talijiwo.html',
+},
 // Default route (404 page). MUST BE THE LAST
 {
   path: '(.*)',
