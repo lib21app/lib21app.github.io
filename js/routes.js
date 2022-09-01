@@ -318,6 +318,70 @@ var routes = [
   path: '/jangan_takut_mencoba/',
   componentUrl: './ebook/jangan_takut_mencoba.html',
 },
+{
+  path: '/burung-kekekow/',
+  componentUrl: './ebook/burung-kekekow.html',
+},
+{
+  path: '/cerita-betawol/',
+  componentUrl: './ebook/cerita-betawol.html',
+},
+{
+  path: '/cikal/',
+  componentUrl: './ebook/cikal.html',
+},
+{
+  path: '/dewi-sekardadu/',
+  componentUrl: './ebook/dewi-sekardadu.html',
+},
+{
+  path: '/indrasakti/',
+  componentUrl: './ebook/indrasakti.html',
+},
+{
+  path: '/karupet/',
+  componentUrl: './ebook/karupet.html',
+},
+{
+  path: '/gunung-lakon/',
+  componentUrl: './ebook/gunung-lakon.html',
+},
+{
+  path: '/naya-sentika/',
+  componentUrl: './ebook/naya-sentika.html',
+},
+{
+  path: '/kelumpang/',
+  componentUrl: './ebook/kelumpang.html',
+},
+{
+  path: '/rawa-pening/',
+  componentUrl: './ebook/rawa-pening.html',
+},
+{
+  path: '/lipi-poleng/',
+  componentUrl: './ebook/lipi-poleng.html',
+},
+{
+  path: '/petir/',
+  componentUrl: './ebook/petir.html',
+},
+{
+  path: '/pak-abad/',
+  componentUrl: './ebook/pak-abad.html',
+},
+{
+  path: '/putri-nibung/',
+  componentUrl: './ebook/putri-nibung.html',
+},
+{
+  path: '/sai-ngugha/',
+  componentUrl: './ebook/sai-ngugha.html',
+},
+{
+  path: '/kerongo/',
+  componentUrl: './ebook/kerongo.html',
+},
 //
 {
   path: '/roadmap-pembuatan-website/',
