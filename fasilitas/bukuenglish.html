@@ -1,51 +1,31 @@
 <template>
-<div class="page">
+  <div class="page">
 
-  <div class="navbar">
-    <div class="navbar-bg" style="background-color:#121212"></div>
-    <div class="navbar-inner sliding">
-      <div class="left">
-        <a class="link back" data-animate="false">
-          <i class="icon icon-back"></i>
-          <span class="if-not-md">Back</span>
-        </a>
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color:#121212"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a class="link back" data-animate="false">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">English Corner</div>
       </div>
-      <div class="title">English Corner</div>
     </div>
-  </div>
-  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
-  <div class="page-content hide-navbar-on-scroll">
+    <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+    <div class="page-content hide-navbar-on-scroll">
       <div class="block">
         <h1>Koleksi Buku berbahasa Inggris</h1>
-		<h3>Baca buku di English Corner sambil mendengarkan audionya.</h3>
-		<br/>
-							<p>Edit</p>
-							
-							<p><b>Edit</p>
-							
-							<p>Edit</p>
-							
-							<p>#SalamLiterasi</p>
-      </div>
-  </div>
+        <h3>Tersedia 300+ koleksi berbahasa Inggris</h3>
+        <br />
+        <img src="img/englishcorner2.jpg" width="100%" />
+        <p>English Corner Perpustakaan Twenty One merupakan salah satu sarana bagi siswa/i SMPN 21 Purworejo untuk belajar bahasa inggris. English Corner Twenty One memiliki berbagai fasilitas, mulai dari tiga ratus koleksi buku bacaan bahasa inggris, unit komputer dengan aplikasi pembaca Ebook majalah National Geographic versi Inggris. Engish Corner juga dilengkapi dengan koleksi audio berbahasa Inggris.
+        </p>
 
-</div>
+        <p>#SalamLiterasi</p>
+      </div>
+    </div>
+
+  </div>
 </template>
-<script>
-  return {
-    methods: {
-      openAlert: function () {
-        var app = this.$app;
-        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
-      },
-      openPrompt: function () {
-        var app = this.$app;
-        app.dialog.prompt('Admin / Editor Password', function (name) {
-          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
-            app.dialog.alert('Unknown password: ' + name);
-          });
-        });
-      },
-    }
-  }
-</script>

@@ -71,12 +71,16 @@ var routes = [
   componentUrl: './pages/poster.html',
 },
 {
-  path: '/denah/',
-  componentUrl: './pages/denah.html',
+  path: '/twitter/',
+  componentUrl: './pages/twitter.html',
 },
 {
-  path: '/literasi/',
-  componentUrl: './pages/literasi.html',
+  path: '/instagram/',
+  componentUrl: './pages/instagram.html',
+},
+{
+  path: '/denah/',
+  componentUrl: './pages/denah.html',
 },
 {
   path: '/media/',

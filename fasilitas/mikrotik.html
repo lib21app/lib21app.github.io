@@ -1,49 +1,35 @@
 <template>
-<div class="page">
+  <div class="page">
 
-  <div class="navbar">
-    <div class="navbar-bg" style="background-color:#121212"></div>
-    <div class="navbar-inner sliding">
-      <div class="left">
-        <a class="link back" data-animate="false">
-          <i class="icon icon-back"></i>
-          <span class="if-not-md">Back</span>
-        </a>
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color:#121212"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a class="link back" data-animate="false">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Mikrotik</div>
       </div>
-      <div class="title">Mikrotik</div>
     </div>
-  </div>
-  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
-  <div class="page-content hide-navbar-on-scroll">
+    <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+    <div class="page-content hide-navbar-on-scroll">
       <div class="block">
         <h1>Mengamankan jaringan dan membatasi client yang masuk ke jaringan Wifi Perpustakaan</h1>
-		<h3>Satu password hanya dapat digunakan untuk satu device/perangkat</h3>
-		<br/>
-							<p>Dengan mikrotik. kecepatan internet masing-masing pengguna dapat diatur apakah diberi bandwidth 1MBps, 10MBps atau bahkan unlimited. Masa berlaku juga dapat diatur apakah satu jam pelajaran, satu hari, satu tahun atau tidak dibatasi. Kuota yang diberikan juga dapat diatur apakah 100 Mb, 1 GB, 10 GB atau unimited.</p>
-							
-							<p>Dengan skema satu password yang hanya dapat digunakan untuk satu device/perangkat, hal ini memberikan fungsi keamanan bahwa password tidak bisa digunakan oleh orang lain yang tidak memiliki ijin akses.</p>
-							
-							<p>#SalamLiterasi</p>
-      </div>
-  </div>
+        <h3>Satu password hanya dapat digunakan untuk satu device/perangkat</h3>
+        <br />
+        <img src="img/mikrotik.png" width="100%" />
+        <p>Dengan mikrotik. kecepatan internet masing-masing pengguna dapat diatur apakah diberi bandwidth 1MBps, 10MBps
+          atau bahkan unlimited. Masa berlaku juga dapat diatur apakah satu jam pelajaran, satu hari, satu tahun atau
+          tidak dibatasi. Kuota yang diberikan juga dapat diatur apakah 100 Mb, 1 GB, 10 GB atau unimited.</p>
 
-</div>
+        <p>Dengan skema satu password yang hanya dapat digunakan untuk satu device/perangkat, hal ini memberikan fungsi
+          keamanan bahwa password tidak bisa digunakan oleh orang lain yang tidak memiliki ijin akses.</p>
+
+        <p>#SalamLiterasi</p>
+      </div>
+    </div>
+
+  </div>
 </template>
-<script>
-  return {
-    methods: {
-      openAlert: function () {
-        var app = this.$app;
-        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
-      },
-      openPrompt: function () {
-        var app = this.$app;
-        app.dialog.prompt('Admin / Editor Password', function (name) {
-          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
-            app.dialog.alert('Unknown password: ' + name);
-          });
-        });
-      },
-    }
-  }
-</script>

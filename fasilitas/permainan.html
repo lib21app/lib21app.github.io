@@ -17,33 +17,13 @@
   <div class="page-content hide-navbar-on-scroll">
       <div class="block">
         <h1>Fasilitas Layanan Anak</h1>
-		<h3>Edit</h3>
+		<h3>Permainan</h3>
 		<br/>
-							<p>Edit</p>
-							
-							<p>Edit</p>
-							
+							<p>Belum ada informasi</p>
+														
 							<p>#SalamLiterasi</p>
       </div>
   </div>
 
 </div>
 </template>
-<script>
-  return {
-    methods: {
-      openAlert: function () {
-        var app = this.$app;
-        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
-      },
-      openPrompt: function () {
-        var app = this.$app;
-        app.dialog.prompt('Admin / Editor Password', function (name) {
-          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
-            app.dialog.alert('Unknown password: ' + name);
-          });
-        });
-      },
-    }
-  }
-</script>
