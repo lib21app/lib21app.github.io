@@ -1,49 +1,36 @@
 <template>
-<div class="page">
+  <div class="page">
 
-  <div class="navbar">
-    <div class="navbar-bg" style="background-color:#121212"></div>
-    <div class="navbar-inner sliding">
-      <div class="left">
-        <a class="link back" data-animate="false">
-          <i class="icon icon-back"></i>
-          <span class="if-not-md">Back</span>
-        </a>
+    <div class="navbar">
+      <div class="navbar-bg" style="background-color:#121212"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a class="link back" data-animate="false">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Print</div>
       </div>
-      <div class="title">Print</div>
     </div>
-  </div>
-  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
-  <div class="page-content hide-navbar-on-scroll">
+    <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+    <div class="page-content hide-navbar-on-scroll">
       <div class="block">
         <h1>Fasilitas Print untuk Pemustaka</h1>
-		<h3>Gratis untuk Biblio Club!</h3>
-		<br/>
-							<p>Edit</p>
-							
-							<p>Edit</p>
-							
-							<p>#SalamLiterasi</p>
-      </div>
-  </div>
+        <h3>Gratis untuk Biblio Club!</h3>
+        <br />
+        <p>Perpustakaan memiliki tiga printer: Canon G4010, Epson L3150 dan Canon 2770. Meski berfungsi sama untuk mencetak, ketiganya ditujukan untuk mencetak dokumen yang berbeda.</p>
+        <br />
+        <img src="img/epson.jpg" width="100%" />
+        <br />
+        <p>Printer Epson L3150 berisi tinta Art Paper yang berbahan dasar minyak. Printer ini khusus untuk mencetak ID Card / kartu anggota. Karena menggunakan tinta khusus, warna yang dihasilkan pudar jika mencetak dokumen biasa.</p>
+        <br />
+        <img src="img/canon.jpg" width="100%" />
+        <p>Canon G4010 digunakan untuk print dokumen biasa bersama dengan Canon 2770 yang dapat dmanfaatkan oleh pemustaka.</p>
 
-</div>
+        <p>#SalamLiterasi</p>
+      </div>
+    </div>
+
+  </div>
 </template>
-<script>
-  return {
-    methods: {
-      openAlert: function () {
-        var app = this.$app;
-        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
-      },
-      openPrompt: function () {
-        var app = this.$app;
-        app.dialog.prompt('Admin / Editor Password', function (name) {
-          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
-            app.dialog.alert('Unknown password: ' + name);
-          });
-        });
-      },
-    }
-  }
-</script>

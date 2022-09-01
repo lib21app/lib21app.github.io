@@ -110,10 +110,6 @@ var routes = [
   path: '/profil/',
   componentUrl: './pages/profil.html',
 },
-{
-   path: '/statistik/',
-   componentUrl: './pages/statistik.html',
- },
  {
    path: '/statistik-koleksi/',
    componentUrl: './pages/statistik-koleksi.html',
