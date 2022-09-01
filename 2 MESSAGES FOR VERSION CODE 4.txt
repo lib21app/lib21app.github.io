@@ -1,0 +1,10 @@
+2 MESSAGES FOR VERSION CODE 4
+Warning
+There is no deobfuscation file associated with this App Bundle. If you use obfuscated code (R8/proguard), uploading a deobfuscation file will make crashes and ANRs easier to analyze and debug. Using R8/proguard can help reduce app size. Learn More
+
+https://developer.android.com/studio/build/shrink-code#decode-stack-trace
+
+Warning
+This App Bundle contains native code, and you've not uploaded debug symbols. We recommend you upload a symbol file to make your crashes and ANRs easier to analyze and debug. Learn More
+
+https://developer.android.com/studio/build/shrink-code#native-crash-support
