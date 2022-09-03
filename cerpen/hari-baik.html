@@ -1,156 +1,246 @@
 <template>
-<div class="page">
+	<div class="page">
 
-  <div class="navbar">
-    <div class="navbar-bg" style="background-color:#121212"></div>
-    <div class="navbar-inner sliding">
-      <div class="left">
-        <a class="link back" data-animate="false">
-          <i class="icon icon-back"></i>
-          <span class="if-not-md">Back</span>
-        </a>
-      </div>
-      <div class="title">Cerpen</div>
-      <div class="right" style="margin-right:30px;color:#ec521e">
-          <i class="icon f7-icons color-white" @click="openAlert" style="font-size:22px;margin-right:0px;">checkmark_seal</i>&nbsp;<small style="font-size:8px;line-height: 1.0;color:#ffffff;">Audiobook<br/>Available</small>
-      </div>
-    </div>
-  </div>
-  <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
-  <div class="page-content hide-navbar-on-scroll">
-      <div class="block">
-        <h1>Hari Baik</h1>
-		<h3>Gde Aryantha Soethama</h3>
-		<br/>
-							<p>Pendeta itu ringkih dan renta, jalannya perlahan, terbungkuk-bungkuk, kadang beberapa langkah ia berhenti mengatur napas, mempererat genggaman tongkatnya agar tumpuan lebih kuat, sebelum tubuh sanggup berayun lagi ke depan. Sekujur kulitnya keriput, tapi matanya bercahaya, wajahnya berwibawa. Jika ia datang di tempat upacara dan orang tergopoh-gopoh memapahnya, ia selalu menolak dengan menggerak- gerakkan kepala sembari tersenyum. Orang-orang pun berhenti terpaku mencakupkan kedua tangan di depan dada, kadang ada yang bersimpuh mencium lututnya, menyerahkan hormat dengan takjub. Pendeta kemudian mengusap-usap kepala orang itu, begitu sejuk menyiram ubun-ubun.</p>
+		<div class="navbar">
+			<div class="navbar-bg" style="background-color:#121212"></div>
+			<div class="navbar-inner sliding">
+				<div class="left">
+					<a class="link back" data-animate="false">
+						<i class="icon icon-back"></i>
+						<span class="if-not-md">Back</span>
+					</a>
+				</div>
+				<div class="title">Cerpen</div>
+				<div class="right" style="margin-right:30px;color:#ec521e">
+					<i class="icon f7-icons color-white" @click="openAlert"
+						style="font-size:22px;margin-right:0px;">checkmark_seal</i>&nbsp;<small
+						style="font-size:8px;line-height: 1.0;color:#ffffff;">Audiobook<br />Available</small>
+				</div>
+			</div>
+		</div>
+		<!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+		<div class="page-content hide-navbar-on-scroll">
+			<div class="block">
+				<h1>Hari Baik</h1>
+				<h3>Gde Aryantha Soethama</h3>
+				<br />
+				<p>Pendeta itu ringkih dan renta, jalannya perlahan, terbungkuk-bungkuk, kadang beberapa langkah ia
+					berhenti mengatur napas, mempererat genggaman tongkatnya agar tumpuan lebih kuat, sebelum tubuh
+					sanggup berayun lagi ke depan. Sekujur kulitnya keriput, tapi matanya bercahaya, wajahnya berwibawa.
+					Jika ia datang di tempat upacara dan orang tergopoh-gopoh memapahnya, ia selalu menolak dengan
+					menggerak- gerakkan kepala sembari tersenyum. Orang-orang pun berhenti terpaku mencakupkan kedua
+					tangan di depan dada, kadang ada yang bersimpuh mencium lututnya, menyerahkan hormat dengan takjub.
+					Pendeta kemudian mengusap-usap kepala orang itu, begitu sejuk menyiram ubun-ubun.</p>
 
-							<p>Saat ini pendeta akan merestui sepasang pengantin. Seperti biasa ia akan melantunkan mantra- mantra, dengan api, dupa, tirta. Tangannya yang kurus akan menggoyang-goyang genta, memberkati sepasang anak manusia agar hidup bahagia, segera beranak pinak, dilimpahi rezeki, dijauhkan dari cekcok dan malapetaka. Dengan sisa- sisa tenaga renta, ia menaiki tangga menuju pamiosan, bangunan bambu dengan balai- balai setinggi hampir dua meter, dibangun khusus bagi pendeta yang siap memuja. Beberapa orang dari keluarga pengantin wanita cemas menyaksikan pendeta itu tertatih-tatih mendaki tangga.</p>
+				<p>Saat ini pendeta akan merestui sepasang pengantin. Seperti biasa ia akan melantunkan mantra- mantra,
+					dengan api, dupa, tirta. Tangannya yang kurus akan menggoyang-goyang genta, memberkati sepasang anak
+					manusia agar hidup bahagia, segera beranak pinak, dilimpahi rezeki, dijauhkan dari cekcok dan
+					malapetaka. Dengan sisa- sisa tenaga renta, ia menaiki tangga menuju pamiosan, bangunan bambu dengan
+					balai- balai setinggi hampir dua meter, dibangun khusus bagi pendeta yang siap memuja. Beberapa
+					orang dari keluarga pengantin wanita cemas menyaksikan pendeta itu tertatih-tatih mendaki tangga.
+				</p>
 
-							<p>&ldquo;Tidak adakah pendeta lebih muda di desa ini?&rdquo; tanya seorang di antara mereka.</p>
+				<p>&ldquo;Tidak adakah pendeta lebih muda di desa ini?&rdquo; tanya seorang di antara mereka.</p>
 
-							<p>Tetapi bagi orang-orang di desa asal pengantin pria, itu pemandangan biasa. &ldquo;Orang merasa lebih mantap dan terhormat jika upacara dituntun pendeta ini. Kami selalu terkesan oleh cahaya mata dan wibawanya,&rdquo; sahut seorang keluarga pengantin pria.</p>
+				<p>Tetapi bagi orang-orang di desa asal pengantin pria, itu pemandangan biasa. &ldquo;Orang merasa lebih
+					mantap dan terhormat jika upacara dituntun pendeta ini. Kami selalu terkesan oleh cahaya mata dan
+					wibawanya,&rdquo; sahut seorang keluarga pengantin pria.</p>
 
-							<p>Begitu pujian itu berakhir, suara berdebam terdengar dari pamiosan. Pendeta itu tergelincir di tangga bambu, terjerembab. Tubuhnya meliuk ke kanan sebelum ia sempat menggapai tiang bambu pamiosan. Bangunan itu bergetar. Atapnya yang terbuat dari alang-alang dengan secarik kain kasa putih melambangkan kesucian jagat raya sempat oleng, bergoyang- goyang sesaat menahan tubuh pendeta ringkih itu.</p>
+				<p>Begitu pujian itu berakhir, suara berdebam terdengar dari pamiosan. Pendeta itu tergelincir di tangga
+					bambu, terjerembab. Tubuhnya meliuk ke kanan sebelum ia sempat menggapai tiang bambu pamiosan.
+					Bangunan itu bergetar. Atapnya yang terbuat dari alang-alang dengan secarik kain kasa putih
+					melambangkan kesucian jagat raya sempat oleng, bergoyang- goyang sesaat menahan tubuh pendeta
+					ringkih itu.</p>
 
-							<p>Sang pendeta terpelanting, terguling, disertai jeritan puluhan orang yang hadir hendak menyaksikan upacara perkawinan di rumah itu. Ia terkapar, terlentang di atas rumput hijau yang kemarin dipangkas rapi. Orang-orang panik merubungnya, memegangi tubuhnya yang terbujur kaku. Mereka yang tadi ngobrol sembari tertawa- tawa berderai langsung terdiam bingung. Mereka mengangkat tubuh pendeta itu, segera melarikannya ke rumah sakit. Rumah yang semula memancarkan kemeriahan dan kebahagiaan itu sontak berubah keruh dirubung kekalutan.</p>
+				<p>Sang pendeta terpelanting, terguling, disertai jeritan puluhan orang yang hadir hendak menyaksikan
+					upacara perkawinan di rumah itu. Ia terkapar, terlentang di atas rumput hijau yang kemarin dipangkas
+					rapi. Orang-orang panik merubungnya, memegangi tubuhnya yang terbujur kaku. Mereka yang tadi ngobrol
+					sembari tertawa- tawa berderai langsung terdiam bingung. Mereka mengangkat tubuh pendeta itu, segera
+					melarikannya ke rumah sakit. Rumah yang semula memancarkan kemeriahan dan kebahagiaan itu sontak
+					berubah keruh dirubung kekalutan.</p>
 
-							<p>Pengantin itu saling pandang. Wajah yang berseri mendadak linglung, merasakan peristiwa itu seperti mimpi. Mereka termangu di antara hamparan sesaji suci dan meriah. Pakaian gemerlap oleh warna emas prada yang mereka kenakan tak ada artinya ketika dua jam kemudian berita duka dahsyat disampaikan: orang suci renta itu meninggal di rumah sakit. Apa guna menunggu? Pernikahan itu memilukan, terancam batal. Suasana mencekam.</p>
+				<p>Pengantin itu saling pandang. Wajah yang berseri mendadak linglung, merasakan peristiwa itu seperti
+					mimpi. Mereka termangu di antara hamparan sesaji suci dan meriah. Pakaian gemerlap oleh warna emas
+					prada yang mereka kenakan tak ada artinya ketika dua jam kemudian berita duka dahsyat disampaikan:
+					orang suci renta itu meninggal di rumah sakit. Apa guna menunggu? Pernikahan itu memilukan, terancam
+					batal. Suasana mencekam.</p>
 
-							<p>Ayah pengantin wanita mendatangi anaknya yang termenung lesu di bawah pohon belimbing, menggamit tangannya. &ldquo;Kita pulang saja, Nak!&rdquo; rajuk lelaki itu. Tapi wanita itu terpaku, terisak, memandang hampa calon suaminya yang nelangsa di bawah pohon jambu depan dapur.</p>
+				<p>Ayah pengantin wanita mendatangi anaknya yang termenung lesu di bawah pohon belimbing, menggamit
+					tangannya. &ldquo;Kita pulang saja, Nak!&rdquo; rajuk lelaki itu. Tapi wanita itu terpaku, terisak,
+					memandang hampa calon suaminya yang nelangsa di bawah pohon jambu depan dapur.</p>
 
-							<p>Dengan langkah gontai, ayah pengantin wanita mendatangi calon besannya. &ldquo;Tak ada lagi yang bisa kita lakukan. Anak akan saya bawa pulang.&rdquo;</p>
+				<p>Dengan langkah gontai, ayah pengantin wanita mendatangi calon besannya. &ldquo;Tak ada lagi yang bisa
+					kita lakukan. Anak akan saya bawa pulang.&rdquo;</p>
 
-							<p>Si besan terkejut. &ldquo;Mari kita bicarakan nasib ini dengan tenang. Permintaan saya, jangan batalkan perkawinan.&rdquo;</p>
+				<p>Si besan terkejut. &ldquo;Mari kita bicarakan nasib ini dengan tenang. Permintaan saya, jangan
+					batalkan perkawinan.&rdquo;</p>
 
-							<p>&ldquo;Tak akan ada perkawinan tanpa pendeta.&rdquo;</p>
+				<p>&ldquo;Tak akan ada perkawinan tanpa pendeta.&rdquo;</p>
 
-							<p>&ldquo;Sedang kami usahakan mencari pendeta pengganti.&rdquo;</p>
+				<p>&ldquo;Sedang kami usahakan mencari pendeta pengganti.&rdquo;</p>
 
-							<p>&ldquo;Siapa sudi jadi pendeta pengganti sore begini? Dua jam lagi malam.&rdquo;</p>
+				<p>&ldquo;Siapa sudi jadi pendeta pengganti sore begini? Dua jam lagi malam.&rdquo;</p>
 
-							<p>&ldquo;Lalu, apa yang bisa kita lakukan?&rdquo;</p>
+				<p>&ldquo;Lalu, apa yang bisa kita lakukan?&rdquo;</p>
 
-							<p>&ldquo;Batalkan perkawinan hari ini. Kita mulai semua dari awal.&rdquo;</p>
+				<p>&ldquo;Batalkan perkawinan hari ini. Kita mulai semua dari awal.&rdquo;</p>
 
-							<p>Mulai dari awal artinya harus datang lagi ke rumah pendeta yang baru. Membawa sesaji lagi, memohon hari baik lagi. Itu belum cukup. Harus dijelaskan dengan jujur mengapa upacara perkawinan diulang. Tak ada gunanya berbohong, tidak karena sungguh terkutuk berdusta pada orang suci, tapi siapa pun, semua pendeta, pasti tahu bencana di rumah itu. Ya, rumah sial, tempat seorang pendeta ditimpa malapetaka.</p>
+				<p>Mulai dari awal artinya harus datang lagi ke rumah pendeta yang baru. Membawa sesaji lagi, memohon
+					hari baik lagi. Itu belum cukup. Harus dijelaskan dengan jujur mengapa upacara perkawinan diulang.
+					Tak ada gunanya berbohong, tidak karena sungguh terkutuk berdusta pada orang suci, tapi siapa pun,
+					semua pendeta, pasti tahu bencana di rumah itu. Ya, rumah sial, tempat seorang pendeta ditimpa
+					malapetaka.</p>
 
-							<p>Si besan termangu. Sesaji suci meriah dan sangat mahal itu, makanan-makanan enak untuk tamu-tamu adat, harus dibuang. Alangkah besar biaya dibutuhkan untuk membuat sesaji baru, harus melibatkan puluhan orang, berhari-hari. Dan ke mana harus disembunyikan muka ini dari rasa malu dan sesal? Tiba-tiba ia merasa dirinya dicabik nasib dan dibanting-banting.</p>
+				<p>Si besan termangu. Sesaji suci meriah dan sangat mahal itu, makanan-makanan enak untuk tamu-tamu
+					adat, harus dibuang. Alangkah besar biaya dibutuhkan untuk membuat sesaji baru, harus melibatkan
+					puluhan orang, berhari-hari. Dan ke mana harus disembunyikan muka ini dari rasa malu dan sesal?
+					Tiba-tiba ia merasa dirinya dicabik nasib dan dibanting-banting.</p>
 
-							<p>Ayah pengantin wanita susah payah menenangkan anaknya yang terus tersedu. Dia tuntun wanita ayu itu melintasi halaman. Di bawah pohon jambu, calon pengantin laki merunduk, matanya basah. Dengan telapak tangan, ia pukul berkali-kali jidatnya yang berpeluh. Tak ia lihat sang kekasih melangkah gontai, berkali-kali menoleh sendu ke arahnya, memanggil dengan lambaian terkulai.</p>
+				<p>Ayah pengantin wanita susah payah menenangkan anaknya yang terus tersedu. Dia tuntun wanita ayu itu
+					melintasi halaman. Di bawah pohon jambu, calon pengantin laki merunduk, matanya basah. Dengan
+					telapak tangan, ia pukul berkali-kali jidatnya yang berpeluh. Tak ia lihat sang kekasih melangkah
+					gontai, berkali-kali menoleh sendu ke arahnya, memanggil dengan lambaian terkulai.</p>
 
-							<p>Di pintu gerbang, ayah pengantin laki masih mencoba menahan keberangkatan itu. &ldquo;Apa tak sebaiknya kita rembukkan sekarang, mencari hari baik lain?&rdquo;</p>
+				<p>Di pintu gerbang, ayah pengantin laki masih mencoba menahan keberangkatan itu. &ldquo;Apa tak
+					sebaiknya kita rembukkan sekarang, mencari hari baik lain?&rdquo;</p>
 
-							<p>&ldquo;Hyang Widhi melarang kita bicara perkawinan hari ini, detik ini. Sebaiknya kita diam saja!&rdquo; ujar ayah pengantin wanita setengah menghardik. Diikuti sanak saudara, ia bergegas meninggalkan gerbang, langsung masuk mobil, membanting pintu dengan sengit. Di sebelahnya duduk calon mempelai wanita itu, merunduk pilu, berurai air mata.</p>
+				<p>&ldquo;Hyang Widhi melarang kita bicara perkawinan hari ini, detik ini. Sebaiknya kita diam
+					saja!&rdquo; ujar ayah pengantin wanita setengah menghardik. Diikuti sanak saudara, ia bergegas
+					meninggalkan gerbang, langsung masuk mobil, membanting pintu dengan sengit. Di sebelahnya duduk
+					calon mempelai wanita itu, merunduk pilu, berurai air mata.</p>
 
-							<p>Berminggu-minggu, berbulan-bulan, berbilang tahun, hari baik itu tak pernah disepakati. Dua keluarga itu tak kunjung bersetuju. Di antara mereka kecocokan menjadi sangat mahal. Para orang tua, sepuh, turun tangan, yang justru membuat masalah jadi semakin rumit berbelit. Bagi mereka, sial itu terjadi karena kesalahan memilih hari baik.</p>
+				<p>Berminggu-minggu, berbulan-bulan, berbilang tahun, hari baik itu tak pernah disepakati. Dua keluarga
+					itu tak kunjung bersetuju. Di antara mereka kecocokan menjadi sangat mahal. Para orang tua, sepuh,
+					turun tangan, yang justru membuat masalah jadi semakin rumit berbelit. Bagi mereka, sial itu terjadi
+					karena kesalahan memilih hari baik.</p>
 
-							<p>&ldquo;Bukankah hari baik itu telah direstui pendeta?&rdquo; bela keluarga laki.</p>
+				<p>&ldquo;Bukankah hari baik itu telah direstui pendeta?&rdquo; bela keluarga laki.</p>
 
-							<p>&ldquo;Pendeta tak selamanya benar. Kita harus kritis pada siapa pun, termasuk pada orang suci,&rdquo; sergah keluarga wanita.</p>
+				<p>&ldquo;Pendeta tak selamanya benar. Kita harus kritis pada siapa pun, termasuk pada orang
+					suci,&rdquo; sergah keluarga wanita.</p>
 
-							<p>Dalam setiap pertemuan, dua keluarga itu selalu mengambinghitamkan hari. Karena itu, hari baik menjadi mahapenting, menjadi tujuan, harus ditilik seteliti mungkin. Masing-masing menunjukkan kebolehan, mengaku mahir tentang hari baik pernikahan, mengaku jago setelah membaca berpuluh lontar. Tulisan-tulisan, cerita, dongeng, yang terukir di daun-daun lontar itu dijadikan acuan. Mereka berdebat, bersilat lidah, mencoba sekuat tenaga menjatuhkan pendapat lawan bicara. Tak seorang pun sudi menyerah, mengaku kalah. Aneh, tak ada yang menggubris betapa sedih dan galau sepasang calon pengantin itu menunggu keputusan yang tak kunjung datang.</p>
+				<p>Dalam setiap pertemuan, dua keluarga itu selalu mengambinghitamkan hari. Karena itu, hari baik
+					menjadi mahapenting, menjadi tujuan, harus ditilik seteliti mungkin. Masing-masing menunjukkan
+					kebolehan, mengaku mahir tentang hari baik pernikahan, mengaku jago setelah membaca berpuluh lontar.
+					Tulisan-tulisan, cerita, dongeng, yang terukir di daun-daun lontar itu dijadikan acuan. Mereka
+					berdebat, bersilat lidah, mencoba sekuat tenaga menjatuhkan pendapat lawan bicara. Tak seorang pun
+					sudi menyerah, mengaku kalah. Aneh, tak ada yang menggubris betapa sedih dan galau sepasang calon
+					pengantin itu menunggu keputusan yang tak kunjung datang.</p>
 
-							<p>&ldquo;Sekarang sesungguhnya hari baik untuk melangsungkan upacara pernikahan. Ini sudah kami sampaikan sebulan lalu dalam pertemuan kita yang ke delapan belas,&rdquo; ujar seorang dari keluarga laki-laki.</p>
+				<p>&ldquo;Sekarang sesungguhnya hari baik untuk melangsungkan upacara pernikahan. Ini sudah kami
+					sampaikan sebulan lalu dalam pertemuan kita yang ke delapan belas,&rdquo; ujar seorang dari keluarga
+					laki-laki.</p>
 
-							<p>Hampir serentak keluarga perempuan geleng-geleng kepala. &ldquo;Sekarang Sukra Kliwon Watugunung, hari Jumat, bulan Agustus, sasih Karo, saat baik buat ngaben, hari baik membakar jenazah, upacara untuk orang mati,&rdquo; tangkis keluarga wanita. &ldquo;Ada di antara kita mau mati? Inilah saat paling pas. Pintu surga terbuka lebar bagi yang sudi mati hari ini,&rdquo; tambahnya dengan mencibir. &ldquo;Aneh, hari baik untuk mati kok dijungkir balik jadi hari baik untuk nikah.&rdquo;</p>
+				<p>Hampir serentak keluarga perempuan geleng-geleng kepala. &ldquo;Sekarang Sukra Kliwon Watugunung,
+					hari Jumat, bulan Agustus, sasih Karo, saat baik buat ngaben, hari baik membakar jenazah, upacara
+					untuk orang mati,&rdquo; tangkis keluarga wanita. &ldquo;Ada di antara kita mau mati? Inilah saat
+					paling pas. Pintu surga terbuka lebar bagi yang sudi mati hari ini,&rdquo; tambahnya dengan
+					mencibir. &ldquo;Aneh, hari baik untuk mati kok dijungkir balik jadi hari baik untuk nikah.&rdquo;
+				</p>
 
-							<p>Keluarga laki-laki menghela napas, terhina. Satu per satu mereka meninggalkan pertemuan itu tanpa pamit. Buntu. Berbarengan dengan kebuntuan itu, sepasang calon pengantin itu juga sedang bertemu. Mereka menganggap itu pertemuan mahapenting, sebuah revolusi untuk menyelesaikan kemelut. Mereka duduk di puncak tebing menghadap matahari yang sebentar lagi tenggelam. Nun di bawah sana, hampir dua kali lima puluh meter, batu cadas terserak menjadi tonjolan- tonjolan seperti bukit kecil. Biru laut semakin kelam, sebentar lagi berubah merah membara. Dari atas tebing itu, buih gelombang tampak sangat ganas menghantam karang seperti slow motion lambaian peri laut yang memanggil-manggil. Gerak abadi yang tak pernah menjemukan. Sepasang kekasih yang dirundung sial itu tengah bersiap diri masuk ke pintu gerak abadi itu.</p>
+				<p>Keluarga laki-laki menghela napas, terhina. Satu per satu mereka meninggalkan pertemuan itu tanpa
+					pamit. Buntu. Berbarengan dengan kebuntuan itu, sepasang calon pengantin itu juga sedang bertemu.
+					Mereka menganggap itu pertemuan mahapenting, sebuah revolusi untuk menyelesaikan kemelut. Mereka
+					duduk di puncak tebing menghadap matahari yang sebentar lagi tenggelam. Nun di bawah sana, hampir
+					dua kali lima puluh meter, batu cadas terserak menjadi tonjolan- tonjolan seperti bukit kecil. Biru
+					laut semakin kelam, sebentar lagi berubah merah membara. Dari atas tebing itu, buih gelombang tampak
+					sangat ganas menghantam karang seperti slow motion lambaian peri laut yang memanggil-manggil. Gerak
+					abadi yang tak pernah menjemukan. Sepasang kekasih yang dirundung sial itu tengah bersiap diri masuk
+					ke pintu gerak abadi itu.</p>
 
-							<p>&ldquo;Dikau yakin ini hari baik untuk mati?&rdquo; tanya si lelaki.</p>
+				<p>&ldquo;Dikau yakin ini hari baik untuk mati?&rdquo; tanya si lelaki.</p>
 
-							<p>Wanita itu mengangguk. &ldquo;Kutahu dari kakek yang sering mendongeng untukku. Kata kakek, Sukra Kliwon Watugunung, sasih Karo, hari terindah untuk mati.&rdquo;</p>
+				<p>Wanita itu mengangguk. &ldquo;Kutahu dari kakek yang sering mendongeng untukku. Kata kakek, Sukra
+					Kliwon Watugunung, sasih Karo, hari terindah untuk mati.&rdquo;</p>
 
-							<p>Si lelaki terkekeh. &ldquo;Dongeng kata dikau! Kita jangan mati demi dongeng, sayang&hellip;!&rdquo;</p>
+				<p>Si lelaki terkekeh. &ldquo;Dongeng kata dikau! Kita jangan mati demi dongeng, sayang&hellip;!&rdquo;
+				</p>
 
-							<p>&ldquo;Tapi hari baik untuk mati seperti ini hanya terulang sepuluh tahun sekali.&rdquo;</p>
+				<p>&ldquo;Tapi hari baik untuk mati seperti ini hanya terulang sepuluh tahun sekali.&rdquo;</p>
 
-							<p>&ldquo;O ya?&rdquo;</p>
+				<p>&ldquo;O ya?&rdquo;</p>
 
-							<p>Si wanita melilitkan kain putih di pinggang kekasihnya. Kain panjang itu ia lilitkan jua ke tubuhnya sehingga raga mereka menyatu. Tak ada lagi busana lain. Mereka menyatu telanjang dalam balutan kain kasa. Mereka bisa saling merasakan detak jantung, kehangatan, juga kesejukan. Ujung kain mereka genggam bersama.</p>
+				<p>Si wanita melilitkan kain putih di pinggang kekasihnya. Kain panjang itu ia lilitkan jua ke tubuhnya
+					sehingga raga mereka menyatu. Tak ada lagi busana lain. Mereka menyatu telanjang dalam balutan kain
+					kasa. Mereka bisa saling merasakan detak jantung, kehangatan, juga kesejukan. Ujung kain mereka
+					genggam bersama.</p>
 
-							<p>&ldquo;Ini penyatuan abadi, kekasihku,&rdquo; ujar wanita itu dengan mata berkaca-kaca.</p>
+				<p>&ldquo;Ini penyatuan abadi, kekasihku,&rdquo; ujar wanita itu dengan mata berkaca-kaca.</p>
 
-							<p>&ldquo;Ah, dikau sudah berjanji tidak akan menangis. Teringat yang akan dikau tinggalkan?&rdquo;</p>
+				<p>&ldquo;Ah, dikau sudah berjanji tidak akan menangis. Teringat yang akan dikau tinggalkan?&rdquo;</p>
 
-							<p>Wanita itu menggeleng. &ldquo;Daku terharu, kita sangat bersetia. Kita tengah menuju gerbang kebahagiaan sejati yang abadi.&rdquo;</p>
+				<p>Wanita itu menggeleng. &ldquo;Daku terharu, kita sangat bersetia. Kita tengah menuju gerbang
+					kebahagiaan sejati yang abadi.&rdquo;</p>
 
-							<p>Si lelaki kembali terkekeh. &ldquo;Daku suka dikau yang selalu gombal kalau lagi bersedih.&rdquo;</p>
+				<p>Si lelaki kembali terkekeh. &ldquo;Daku suka dikau yang selalu gombal kalau lagi bersedih.&rdquo;</p>
 
-							<p>Sedikit lagi matahari tenggelam. Semak-semak akan menjadi onggokan-onggokan hitam. Bangunan pura kecil di sebelah sepasang kekasih itu berdiri, segera kelam. Dulu, di abad ke-11, pura itu tempat seorang maharesi dikucilkan karena menentang raja. Ia menyepi ke ujung karang mendongak ke laut itu untuk bertapa. Ia moksa di sana, konon, tanpa meninggalkan jasad. Tapi ada yang berkomentar, jangan- jangan maharesi itu terjun ke laut nun di bawah sana. Pura itu kemudian menjadi simbol menentang kekuasaan dan kemapanan. Banyak mahasiswa yang hendak berdemonstrasi sembahyang di tempat suci itu, mohon restu agar terhindar dari kekerasan.</p>
+				<p>Sedikit lagi matahari tenggelam. Semak-semak akan menjadi onggokan-onggokan hitam. Bangunan pura
+					kecil di sebelah sepasang kekasih itu berdiri, segera kelam. Dulu, di abad ke-11, pura itu tempat
+					seorang maharesi dikucilkan karena menentang raja. Ia menyepi ke ujung karang mendongak ke laut itu
+					untuk bertapa. Ia moksa di sana, konon, tanpa meninggalkan jasad. Tapi ada yang berkomentar, jangan-
+					jangan maharesi itu terjun ke laut nun di bawah sana. Pura itu kemudian menjadi simbol menentang
+					kekuasaan dan kemapanan. Banyak mahasiswa yang hendak berdemonstrasi sembahyang di tempat suci itu,
+					mohon restu agar terhindar dari kekerasan.</p>
 
-							<p>Laki-laki itu mengelus-elus pinggul kekasihnya, merapatkan tubuhnya untuk menikmati tumbukan kenyal payudara wanita itu.</p>
+				<p>Laki-laki itu mengelus-elus pinggul kekasihnya, merapatkan tubuhnya untuk menikmati tumbukan kenyal
+					payudara wanita itu.</p>
 
-							<p>&ldquo;Peluk daku,&rdquo; pinta si wanita.</p>
+				<p>&ldquo;Peluk daku,&rdquo; pinta si wanita.</p>
 
-							<p>&ldquo;Ah, sejak tadi kupeluk dikau.&rdquo;</p>
+				<p>&ldquo;Ah, sejak tadi kupeluk dikau.&rdquo;</p>
 
-							<p>&ldquo;Lebih erat lagi. Ciummm&hellip;!&rdquo;</p>
+				<p>&ldquo;Lebih erat lagi. Ciummm&hellip;!&rdquo;</p>
 
-							<p>Angin berembus kencang, sedikit lagi matahari tenggelam. Mereka menggerakkan kaki ke bibir tebing, menatap nun di bawah sana buih ombak semakin kelam menghantam karang. Warna permukaan laut kian membara oleh cahaya matahari senja. Kaki mereka bergeser terus, pelan-pelan, bersama. Dua tubuh telanjang yang menjadi satu oleh belitan kain putih itu semakin ke tepi tebing. Hening.</p>
+				<p>Angin berembus kencang, sedikit lagi matahari tenggelam. Mereka menggerakkan kaki ke bibir tebing,
+					menatap nun di bawah sana buih ombak semakin kelam menghantam karang. Warna permukaan laut kian
+					membara oleh cahaya matahari senja. Kaki mereka bergeser terus, pelan-pelan, bersama. Dua tubuh
+					telanjang yang menjadi satu oleh belitan kain putih itu semakin ke tepi tebing. Hening.</p>
 
-							<p>&ldquo;Yakin kita tak meninggalkan jejak?&rdquo; tanya si wanita.</p>
+				<p>&ldquo;Yakin kita tak meninggalkan jejak?&rdquo; tanya si wanita.</p>
 
-							<p>&ldquo;Tak ada sama sekali. Tak akan seorang pun tahu selamanya di mana kita berada. Pakaian, tas, sudah kulempar ke laut.&rdquo;</p>
+				<p>&ldquo;Tak ada sama sekali. Tak akan seorang pun tahu selamanya di mana kita berada. Pakaian, tas,
+					sudah kulempar ke laut.&rdquo;</p>
 
-							<p>&ldquo;Kalau begitu, mari&hellip;!&rdquo;</p>
+				<p>&ldquo;Kalau begitu, mari&hellip;!&rdquo;</p>
 
-							<p>&ldquo;Ayo&hellip;!&rdquo;</p>
+				<p>&ldquo;Ayo&hellip;!&rdquo;</p>
 
-							<p>Mereka meloncat melewati bibir tebing, meluncur ke bawah, cuma butuh sekian detik menempuh hampir dua kali lima puluh meter. Rambut wanita yang panjang itu berjurai-jurai ke atas, beberapa helai menutup mata dan telinganya.</p>
+				<p>Mereka meloncat melewati bibir tebing, meluncur ke bawah, cuma butuh sekian detik menempuh hampir dua
+					kali lima puluh meter. Rambut wanita yang panjang itu berjurai-jurai ke atas, beberapa helai menutup
+					mata dan telinganya.</p>
 
-							<p>&ldquo;Peluk terus daku, sayang! Jangan lepaskan!&rdquo;</p>
+				<p>&ldquo;Peluk terus daku, sayang! Jangan lepaskan!&rdquo;</p>
 
-							<p>&ldquo;Kita moksa, kekasihku,&rdquo; bisik si lelaki.</p>
+				<p>&ldquo;Kita moksa, kekasihku,&rdquo; bisik si lelaki.</p>
 
-							<p>&ldquo;Ciummm&hellip;!&rdquo;</p>
+				<p>&ldquo;Ciummm&hellip;!&rdquo;</p>
 
-							<p>Ujung kain kasa putih yang melilit mereka berkibar-kibar didera angin laut. Sepersekian detik mereka mempererat pelukan, mengumpulkan kehangatan, melupakan semuanya. Hanya ada kekasih, penyerahan, dan penyatuan. Jantung berdegup kencang, otot dan tulang berderak-derak. Semua melayang terbang, seperti perjalanan ke ruang angkasa, menjelajah waktu luar biasa jauh, tanpa batas.</p>
+				<p>Ujung kain kasa putih yang melilit mereka berkibar-kibar didera angin laut. Sepersekian detik mereka
+					mempererat pelukan, mengumpulkan kehangatan, melupakan semuanya. Hanya ada kekasih, penyerahan, dan
+					penyatuan. Jantung berdegup kencang, otot dan tulang berderak-derak. Semua melayang terbang, seperti
+					perjalanan ke ruang angkasa, menjelajah waktu luar biasa jauh, tanpa batas.</p>
 
-							<p>Tiba-tiba dingin tak terkatakan. Detik itu matahari sepenuhnya tenggelam. Betapa indah langit cerah bulan Agustus yang menyisakan semburat jingga di barat. Membuat siapa pun yang menyaksikan pesona itu tak hendak beranjak sebelum berakhir.</p>
+				<p>Tiba-tiba dingin tak terkatakan. Detik itu matahari sepenuhnya tenggelam. Betapa indah langit cerah
+					bulan Agustus yang menyisakan semburat jingga di barat. Membuat siapa pun yang menyaksikan pesona
+					itu tak hendak beranjak sebelum berakhir.</p>
 
-							<p>Raga sepasang calon pengantin itu terempas deras di atas karang, tetap berciuman, sebelum tangan ombak memeluk dan menggulung-gulungnya, membopong jasad itu ke tengah samudra. Tak tampak sedikit pun bekasnya. Tidak tersisa. Moksa.</p>
+				<p>Raga sepasang calon pengantin itu terempas deras di atas karang, tetap berciuman, sebelum tangan
+					ombak memeluk dan menggulung-gulungnya, membopong jasad itu ke tengah samudra. Tak tampak sedikit
+					pun bekasnya. Tidak tersisa. Moksa.</p>
 
-							<p>Jimbaran, Juli 2003</p>
-      </div>
-  </div>
+				<p>Jimbaran, Juli 2003</p>
+			</div>
+		</div>
 
-</div>
+	</div>
 </template>
 <script>
-  return {
-    methods: {
-      openAlert: function () {
-        var app = this.$app;
-        app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
-      },
-      openPrompt: function () {
-        var app = this.$app;
-        app.dialog.prompt('Admin / Editor Password', function (name) {
-          app.dialog.confirm('Are you sure that your Admin / Editor password is ' + name + '?', function () {
-            app.dialog.alert('Unknown password: ' + name);
-          });
-        });
-      },
-    }
-  }
+	return {
+		methods: {
+			openAlert: function () {
+				var app = this.$app;
+				app.dialog.alert('Cerpen ini tersedia di Audiobook. Akses di menu dan pilih Audiobook untuk pengalaman membaca yang lebih menyenangkan!');
+			},
+		}
+	}
 </script>
