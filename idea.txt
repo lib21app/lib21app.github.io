@@ -1,6 +1,5 @@
 papan pengumuman
 pendidikan pemustaka
-denah ruang
 reward
 
 ====
