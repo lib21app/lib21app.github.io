@@ -382,6 +382,86 @@ var routes = [
   path: '/kerongo/',
   componentUrl: './ebook/kerongo.html',
 },
+{
+  path: '/fabel-1/',
+  componentUrl: './ebook/fabel-1.html',
+},
+{
+  path: '/fabel-2/',
+  componentUrl: './ebook/fabel-2.html',
+},
+{
+  path: '/fabel-3/',
+  componentUrl: './ebook/fabel-3.html',
+},
+{
+  path: '/fabel-4/',
+  componentUrl: './ebook/fabel-4.html',
+},
+{
+  path: '/fabel-5/',
+  componentUrl: './ebook/fabel-5.html',
+},
+{
+  path: '/fabel-6/',
+  componentUrl: './ebook/fabel-6.html',
+},
+{
+  path: '/fabel-7/',
+  componentUrl: './ebook/fabel-7.html',
+},
+{
+  path: '/fabel-8/',
+  componentUrl: './ebook/fabel-8.html',
+},
+{
+  path: '/fabel-9/',
+  componentUrl: './ebook/fabel-9.html',
+},
+{
+  path: '/fabel-10/',
+  componentUrl: './ebook/fabel-10.html',
+},
+{
+  path: '/fabel-11/',
+  componentUrl: './ebook/fabel-11.html',
+},
+{
+  path: '/fabel-12/',
+  componentUrl: './ebook/fabel-12.html',
+},
+{
+  path: '/fabel-13/',
+  componentUrl: './ebook/fabel-13.html',
+},
+{
+  path: '/fabel-14/',
+  componentUrl: './ebook/fabel-14.html',
+},
+{
+  path: '/fabel-15/',
+  componentUrl: './ebook/fabel-15.html',
+},
+{
+  path: '/fabel-16/',
+  componentUrl: './ebook/fabel-16.html',
+},
+{
+  path: '/fabel-17/',
+  componentUrl: './ebook/fabel-17.html',
+},
+{
+  path: '/fabel-18/',
+  componentUrl: './ebook/fabel-18.html',
+},
+{
+  path: '/fabel-19/',
+  componentUrl: './ebook/fabel-19.html',
+},
+{
+  path: '/fabel-20/',
+  componentUrl: './ebook/fabel-20.html',
+},
 //
 {
   path: '/roadmap-pembuatan-website/',
