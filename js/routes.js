@@ -36,6 +36,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/cerpen-kirim/',
+  url: './pages/cerpen-kirim.html',
+  name: 'home',
+},
+{
   path: '/start/',
   url: './pages/start.html',
   name: 'home',
@@ -461,6 +466,86 @@ var routes = [
 {
   path: '/fabel-20/',
   componentUrl: './ebook/fabel-20.html',
+},
+{
+  path: '/terjemah-099/',
+  componentUrl: './ebook/terjemah-099.html',
+},
+{
+  path: '/terjemah-100/',
+  componentUrl: './ebook/terjemah-100.html',
+},
+{
+  path: '/terjemah-101/',
+  componentUrl: './ebook/terjemah-101.html',
+},
+{
+  path: '/terjemah-102/',
+  componentUrl: './ebook/terjemah-102.html',
+},
+{
+  path: '/terjemah-103/',
+  componentUrl: './ebook/terjemah-103.html',
+},
+{
+  path: '/terjemah-104/',
+  componentUrl: './ebook/terjemah-104.html',
+},
+{
+  path: '/terjemah-105/',
+  componentUrl: './ebook/terjemah-105.html',
+},
+{
+  path: '/terjemah-106/',
+  componentUrl: './ebook/terjemah-106.html',
+},
+{
+  path: '/terjemah-107/',
+  componentUrl: './ebook/terjemah-107.html',
+},
+{
+  path: '/terjemah-108/',
+  componentUrl: './ebook/terjemah-108.html',
+},
+{
+  path: '/terjemah-109/',
+  componentUrl: './ebook/terjemah-109.html',
+},
+{
+  path: '/terjemah-110/',
+  componentUrl: './ebook/terjemah-110.html',
+},
+{
+  path: '/terjemah-111/',
+  componentUrl: './ebook/terjemah-111.html',
+},
+{
+  path: '/terjemah-113/',
+  componentUrl: './ebook/terjemah-113.html',
+},
+{
+  path: '/terjemah-115/',
+  componentUrl: './ebook/terjemah-115.html',
+},
+{
+  path: '/terjemah-116/',
+  componentUrl: './ebook/terjemah-116.html',
+},
+{
+  path: '/terjemah-117/',
+  componentUrl: './ebook/terjemah-117.html',
+},
+{
+  path: '/terjemah-118/',
+  componentUrl: './ebook/terjemah-118.html',
+},
+{
+  path: '/terjemah-119/',
+  componentUrl: './ebook/terjemah-119.html',
+},
+{
+  path: '/terjemah-120/',
+  componentUrl: './ebook/terjemah-120.html',
 },
 //
 {
