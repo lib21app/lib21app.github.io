@@ -41,6 +41,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/cerpen-naskah/',
+  url: './pages/cerpen-naskah.html',
+  name: 'home',
+},
+{
   path: '/start/',
   url: './pages/start.html',
   name: 'home',

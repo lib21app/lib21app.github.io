@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Notes App w. Local Storage</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class='note'>
+  <input type="text" placeholder="Title" id="title" value="" onchange="saveTitle()"></input>
+  <textarea placeholder="Type a note here..." id="message" onchange="saveMessage()">Type a note here...
+  </textarea>
+</section>
+
+<!--- Shows error if browser doesn't support local storage --->
+<div id="test"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
