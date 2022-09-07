@@ -547,6 +547,162 @@ var routes = [
   path: '/terjemah-120/',
   componentUrl: './ebook/terjemah-120.html',
 },
+{
+  path: '/terjemah-121/',
+  componentUrl: './ebook/terjemah-121.html',
+},
+{
+  path: '/terjemah-122/',
+  componentUrl: './ebook/terjemah-122.html',
+},
+{
+  path: '/terjemah-123/',
+  componentUrl: './ebook/terjemah-123.html',
+},
+{
+  path: '/terjemah-124/',
+  componentUrl: './ebook/terjemah-124.html',
+},
+{
+  path: '/terjemah-125/',
+  componentUrl: './ebook/terjemah-125.html',
+},
+{
+  path: '/terjemah-126/',
+  componentUrl: './ebook/terjemah-126.html',
+},
+{
+  path: '/terjemah-127/',
+  componentUrl: './ebook/terjemah-127.html',
+},
+{
+  path: '/terjemah-128/',
+  componentUrl: './ebook/terjemah-128.html',
+},
+{
+  path: '/terjemah-129/',
+  componentUrl: './ebook/terjemah-129.html',
+},
+{
+  path: '/terjemah-130/',
+  componentUrl: './ebook/terjemah-130.html',
+},
+{
+  path: '/terjemah-131/',
+  componentUrl: './ebook/terjemah-131.html',
+},
+{
+  path: '/terjemah-132/',
+  componentUrl: './ebook/terjemah-132.html',
+},
+{
+  path: '/terjemah-133/',
+  componentUrl: './ebook/terjemah-133.html',
+},
+{
+  path: '/terjemah-134/',
+  componentUrl: './ebook/terjemah-134.html',
+},
+{
+  path: '/terjemah-135/',
+  componentUrl: './ebook/terjemah-135.html',
+},
+{
+  path: '/terjemah-136/',
+  componentUrl: './ebook/terjemah-136.html',
+},
+{
+  path: '/terjemah-137/',
+  componentUrl: './ebook/terjemah-137.html',
+},
+{
+  path: '/terjemah-138/',
+  componentUrl: './ebook/terjemah-138.html',
+},
+{
+  path: '/terjemah-139/',
+  componentUrl: './ebook/terjemah-139.html',
+},
+{
+  path: '/terjemah-140/',
+  componentUrl: './ebook/terjemah-140.html',
+},
+{
+  path: '/terjemah-141/',
+  componentUrl: './ebook/terjemah-141.html',
+},
+{
+  path: '/terjemah-142/',
+  componentUrl: './ebook/terjemah-142.html',
+},
+{
+  path: '/terjemah-143/',
+  componentUrl: './ebook/terjemah-143.html',
+},
+{
+  path: '/terjemah-144/',
+  componentUrl: './ebook/terjemah-144.html',
+},
+{
+  path: '/terjemah-145/',
+  componentUrl: './ebook/terjemah-145.html',
+},
+{
+  path: '/terjemah-146/',
+  componentUrl: './ebook/terjemah-146.html',
+},
+{
+  path: '/terjemah-147/',
+  componentUrl: './ebook/terjemah-147.html',
+},
+{
+  path: '/terjemah-148/',
+  componentUrl: './ebook/terjemah-148.html',
+},
+{
+  path: '/terjemah-149/',
+  componentUrl: './ebook/terjemah-149.html',
+},
+{
+  path: '/terjemah-150/',
+  componentUrl: './ebook/terjemah-150.html',
+},
+{
+  path: '/terjemah-151/',
+  componentUrl: './ebook/terjemah-151.html',
+},
+{
+  path: '/terjemah-152/',
+  componentUrl: './ebook/terjemah-152.html',
+},
+{
+  path: '/terjemah-153/',
+  componentUrl: './ebook/terjemah-153.html',
+},
+{
+  path: '/terjemah-154/',
+  componentUrl: './ebook/terjemah-154.html',
+},
+{
+  path: '/terjemah-155/',
+  componentUrl: './ebook/terjemah-155.html',
+},
+{
+  path: '/terjemah-156/',
+  componentUrl: './ebook/terjemah-156.html',
+},
+{
+  path: '/terjemah-157/',
+  componentUrl: './ebook/terjemah-157.html',
+},
+{
+  path: '/terjemah-158/',
+  componentUrl: './ebook/terjemah-158.html',
+},
+{
+  path: '/terjemah-159/',
+  componentUrl: './ebook/terjemah-159.html',
+},
 //
 {
   path: '/roadmap-pembuatan-website/',
