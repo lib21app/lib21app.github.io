@@ -9,70 +9,68 @@
           <span class="if-not-md">Back</span>
         </a>
       </div>
-      
+
       <div class="title">My Cerpen</div>
       <div class="right">
         <a href="#" onclick="window.location.reload(true);" class="link" data-animate="false" style="color:#ffffff">
-          <i class="icon f7-icons"
-            style="font-size:18px">floppy_disk</i>&nbsp;
+          <i class="icon f7-icons" style="font-size:18px">floppy_disk</i>&nbsp;
         </a>
         <a href="/cerpen-kirim/" class="link" data-animate="false" style="color:#ffffff">
-          <i class="icon f7-icons"
-            style="font-size:18px">paperplane</i>&nbsp;
+          <i class="icon f7-icons" style="font-size:18px">paperplane</i>&nbsp;
         </a>
       </div>
     </div>
   </div>
 
   <style>
-    .note {
-      width: 100%;
-      height: 100%;
-      background: 121212;
-      padding: 30px 10px 0 10px;
-      border-radius: 3px;
+    .list ul {
+      background: #121212;
     }
 
-    input[type=text] {
-      border: none;
-      outline: none;
-      display: block;
-      background: transparent;
-      width: calc(100% - 6px);
-      font-size: 20px;
-      color: #ffffff;
-      margin: 0 0 0 10px;
+    .list ul:before {
+      display: none;
     }
 
-    textarea {
-      border: none;
-      height: calc(100% - 40px) !important;
-      width: calc(100% - 10px) !important;
-      background: transparent;
-      color: #ffffff;
-      font-size: 16px;
-      margin: 15px 0 0 10px;
+    .list ul:after {
+      display: none;
     }
 
-    /***TEST - also shows error if browser doens't support local storage***/
-    #test {
-      border: none;
-      border-radius: 10px;
-      margin: 15px;
-      color: #fafafa;
-      padding: 15px;
-      box-sizing: border-box;
-      font-family: sans-serif;
+    .list textarea.resizable {
+      height: 200px;
+      font-size: 14px;
+    }
+
+    .md .item-input:not(.item-input-outline) .item-input-wrap:after,
+    .md .input:not(.input-outline):after {
+      display: none;
     }
   </style>
 
+
   <div class="page-content">
-    <section class='note'>
-      <input type="text" placeholder="Judul" id="title" value="" onchange="saveTitle()"></input>
-      <textarea placeholder="Mulai menulis cerpen disini..." id="message" onchange="saveMessage()">Mulai menulis cerpen disini...
-        </textarea>
-    </section>
-    <div id="test"></div>
+    <form class="list form-store-data" id="cerpen-form">
+      <ul>
+        <li class="item-content item-input">
+          <div class="item-inner">
+            <div class="item-title item-label">Judul Cerpen</div>
+            <div class="item-input-wrap">
+              <input name="name" type="text" placeholder="My First Story">
+              <span class="input-clear-button"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="item-content item-input">
+          <div class="item-inner">
+            <div class="item-title item-label">Naskah</div>
+            <div class="item-input-wrap">
+              <textarea name="bio" style="height:100px" class="resizable nooutline"
+                placeholder="Tulis draft cerpen anda disini. File tersimpan di memori peragkat anda. Cerpen mungkin hilang jika anda menghapus cache atau memori. Segera kirim setelah selesai."></textarea>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </form>
   </div>
 
 </div>
