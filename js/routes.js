@@ -41,8 +41,28 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/pidato-kirim/',
+  url: './pages/pidato-kirim.html',
+  name: 'home',
+},
+{
   path: '/cerpen-naskah/',
   url: './pages/cerpen-naskah.html',
+  name: 'home',
+},
+{
+  path: '/cerpen-iframe/',
+  url: './pages/cerpen-iframe.html',
+  name: 'home',
+},
+{
+  path: '/pidato-iframe/',
+  url: './pages/pidato-iframe.html',
+  name: 'home',
+},
+{
+  path: '/karya/',
+  url: './pages/karya.html',
   name: 'home',
 },
 {
