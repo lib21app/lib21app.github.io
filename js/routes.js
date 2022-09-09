@@ -175,6 +175,10 @@ var routes = [
 },
 // CERPEN
 {
+  path: '/matahari-senja/',
+  componentUrl: './cerpen/matahari-senja.html',
+},
+{
   path: '/ajaran-kehidupan-seorang-nenek/',
   componentUrl: './cerpen/ajaran-kehidupan-seorang-nenek.html',
 },
