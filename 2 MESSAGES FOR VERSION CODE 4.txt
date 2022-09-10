@@ -9,7 +9,32 @@ This App Bundle contains native code, and you've not uploaded debug symbols. We 
 
 https://developer.android.com/studio/build/shrink-code#native-crash-support
 
+Android gradle plugin
+3.6.0
+gradle version
+5.6.4
 
+=============
+
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'com.onesignal:OneSignal:3.13.2@aar'
+    implementation 'com.google.android.gms:play-services-ads:19.3.0'
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+    implementation "com.google.android.gms:play-services-location:17.0.0"
+    implementation 'com.github.quentin7b:android-location-tracker:3.2'
+    implementation 'com.google.firebase:firebase-core:17.5.0'
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    implementation 'com.google.firebase:firebase-ads:19.3.0'
+    implementation 'com.google.firebase:firebase-crash:16.2.1'
+    implementation 'com.android.billingclient:billing:4.0.0'
+    implementation 'com.google.firebase:firebase-iid:20.2.4'
+    implementation 'org.jetbrains:annotations-java5:15.0'
+    implementation 'com.github.hotchemi:android-rate:1.0.1'
+    implementation 'com.github.flipagram:android-assetcopier:0.1.1'
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    implementation 'io.card:android-sdk:5.5.1'
 
 =============
 
