@@ -26,6 +26,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/katalog/',
+  url: './pages/katalog.html',
+  name: 'home',
+},
+{
   path: '/akun/',
   url: './pages/akun.html',
   name: 'home',
