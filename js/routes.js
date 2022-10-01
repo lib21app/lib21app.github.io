@@ -71,6 +71,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/kirim/',
+  url: './pages/kirim.html',
+  name: 'home',
+},
+{
   path: '/start/',
   url: './pages/start.html',
   name: 'home',
