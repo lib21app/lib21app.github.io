@@ -21,8 +21,8 @@
 }
 
 body {
-  background: #121212;
-  color: #dddddd;
+  background: #ffffff;
+  color: #000000;
   font-weight: 400;
   font-size: 16px;
   font-family: "Martel Sans", Arial, sans-serif;
@@ -205,7 +205,7 @@ button:focus {
 
 /* Top bar above the grid */
 .top-bar {
-  background: #121212;
+  background: #ffffff;
   width: 100%;
   line-height: 1;
   padding: 15px 15px 10px;
@@ -302,7 +302,7 @@ button:focus {
   padding: 45px 55px 30px;
   position: relative;
   color: inherit;
-  background: #121212;
+  background: #ffffff;
   min-height: 300px;
   cursor: pointer;
   text-align: center;
@@ -557,7 +557,7 @@ button:focus {
 /* Grid footer */
 .page-meta {
   width: 100%;
-  background: #121212;
+  background: #ffffff;
   width: 100%;
   padding: 15px 15px 10px;
   text-align: center;
@@ -575,7 +575,7 @@ button:focus {
   z-index: 100;
   top: 0;
   left: 0;
-  background: #121212;
+  background: #ffffff;
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
 }
@@ -652,7 +652,7 @@ button:focus {
   pointer-events: auto;
   -webkit-transition: opacity 0.6s;
   transition: opacity 0.6s;
-  background: #121212;
+  background: #ffffff;
 }
 
 /* content elements */
@@ -976,7 +976,7 @@ button:focus {
     position: absolute;
     top: 0;
     right: 0;
-    background: #121212;
+    background: #ffffff;
     border-bottom: 1px solid #f5f5f5;
     width: 100vw;
     height: 50px;
