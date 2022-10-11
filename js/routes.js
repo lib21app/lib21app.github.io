@@ -66,6 +66,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/poster-iframe/',
+  url: './pages/poster-iframe.html',
+  name: 'home',
+},
+{
   path: '/hijriyah/',
   url: './pages/hijriyah.html',
   name: 'home',
