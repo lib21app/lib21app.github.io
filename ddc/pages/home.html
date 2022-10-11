@@ -1,0 +1,203 @@
+<template>
+  <div class="page page-home">
+    <div class="navbar navbar-large navbar-transparent">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="link icon-only panel-open" data-panel="left">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons md-only">menu</i>
+          </a>
+        </div>
+        <div class="title sliding">DDC Perpustakaan</div>
+        <div class="right">
+          <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
+            <i class="icon f7-icons if-not-md">search</i>
+            <i class="icon material-icons md-only">search</i>
+          </a>
+        </div>
+        <div class="title-large">
+          <div class="title-large-text">DDC Perpustakaan</div>
+        </div>
+        <form data-search-container=".components-list" data-search-in="a"
+          class="searchbar searchbar-expandable searchbar-components searchbar-init">
+          <div class="searchbar-inner">
+            <div class="searchbar-input-wrap">
+              <input type="search" placeholder="Search components" />
+              <i class="searchbar-icon"></i>
+              <span class="input-clear-button"></span>
+            </div>
+            <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="list searchbar-hide-on-search">
+        <ul>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">000 Karya Umum</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">100 Filsafat dan Psikologi</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">200 Agama</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">300 Ilmu-ilmu Sosial</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">400 Bahasa</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">500 Ilmu-ilmu Alam dan Matematika</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">600 Teknologi dan Ilmu-ilmu Terapan</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">700 Kesenian, Hiburan dan Olahraga</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">800 Kesusastraan</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="/searchbar/">
+              <div class="item-media"><i class="icon icon-f7"></i></div>
+              <div class="item-inner">
+                <div class="item-title">900 Geografi dan Sejarah</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="list simple-list searchbar-not-found">
+        <ul>
+          <li>Nothing found</li>
+        </ul>
+      </div>
+      <div class="block-title block-title-medium searchbar-hide-on-search">Themes</div>
+      <div class="list searchbar-hide-on-search">
+        <ul>
+          <li>
+            <a href="./index.html?theme=ios" class="external item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">iOS Theme</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html?theme=md" class="external item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Material (MD) Theme</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html?theme=aurora" class="external item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Aurora Desktop Theme</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/color-themes/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Color Themes</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default function (props, ctx) {
+    var $f7router = ctx.$f7router;
+    var $el = ctx.$el;
+    var $f7 = ctx.$f7;
+    var $onMounted = ctx.$onMounted;
+    var $on = ctx.$on;
+
+    function onResize() {
+      if ($f7.width >= 768) {
+        $el.value.find('.list:not(.searchbar-not-found)').addClass('menu-list');
+      } else {
+        $el.value.find('.list:not(.searchbar-not-found)').removeClass('menu-list');
+      }
+    }
+
+    if ($f7.theme === 'aurora') {
+      $onMounted(function () {
+        $el.value.find('.list a[href]:not(.external)').attr('data-reload-detail', 'true');
+        onResize();
+      });
+
+      $on('pageAfterIn', function () {
+        if ($f7.width >= 768) {
+          $f7router.navigate('/about/', { reloadDetail: true });
+        }
+      })
+
+      $f7.on('resize', onResize);
+
+      $f7router.on('routeChange', function (route) {
+        var url = route.url;
+        if (!$el.value) return;
+        var $linkEl = $el.value.find('a[href="' + url + '"]');
+        if (!$linkEl.length) return;
+        $el.value.find('.item-selected').removeClass('item-selected');
+        $linkEl.addClass('item-selected');
+      });
+    }
+
+    return $render;
+  };
+</script>
