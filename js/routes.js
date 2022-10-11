@@ -66,6 +66,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/hijriyah/',
+  url: './pages/hijriyah.html',
+  name: 'home',
+},
+{
   path: '/karya/',
   url: './pages/karya.html',
   name: 'home',
