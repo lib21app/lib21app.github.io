@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Media Pembelajaran PAI: Shalat Jama' Qashar</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="html2canvas.min.js"></script>
+</head>
+
+<body>
+
+  <div id="main">
+    <div id="screenshot" style="background-color:#121212">
+
+      <div style="text-align: center;color: #ffffff;margin-top: 20px;">Media Pembelajaran Shalat Jama' Qashar<br />SMPN
+        21 Purworejo</div>
+      <br />
+      <ul style="text-align: center;color: #ffffff;margin-bottom: -30px;" class='list'></ul>
+
+
+
+      <div id="root"></div>
+
+      <div style="text-align: center;color: #ffffff;margin-top: -30px;margin-bottom: 10px; font-size: 10px;">Urutkan
+        niat shalat diatas supaya benar<br />Jika sudah selesai, lanjut ke soal berikutnya</div>
+
+
+    </div>
+  </div>
+
+  <div style="text-align: center;color: #ffffff;margin-bottom: 10px; font-size: 10px;"><a style="color: #ffffff"
+      href="a-jt.html">Soal Berikutnya</a></div>
+
+
+  <script>
+    function makeScreenshot() {
+      html2canvas(document.getElementById("screenshot"), { scale: 2 }).then(canvas => {
+        canvas.id = "canvasID";
+        var main = document.getElementById("main");
+        while (main.firstChild) { main.removeChild(main.firstChild); }
+        main.appendChild(canvas);
+      });
+    }
+
+    document.getElementById("a-make").addEventListener('click', function () {
+      document.getElementById("a-make").style.display = "none";
+      makeScreenshot();
+      document.getElementById("a-download").style.display = "inline";
+    }, false);
+
+    document.getElementById("a-download").addEventListener('click', function () {
+      this.href = document.getElementById("canvasID").toDataURL();
+      this.download = "duhur-jamaktaqdim.png";
+    }, false);
+  </script>
+
+  <script src='https://unpkg.com/react@16.10.2/umd/react.development.js'></script>
+  <script src='https://unpkg.com/react-dom@16.10.2/umd/react-dom.development.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.7.2/prop-types.min.js'></script>
+  <script src='https://unpkg.com/smooth-dnd@0.12.0/dist/index.js'></script>
+  <script src='https://unpkg.com/react-smooth-dnd@0.11.0/dist/index.js'></script>
+  <script src="d-jt.js"></script>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src="local.js"></script>
+
+  <script>$(document).ready(function () {
+      $('.modalDialog').fadeIn();
+
+      $('.close').on('click', function (event) {
+        event.preventDefault();
+        /* Act on the event */
+
+        $('.modalDialog').fadeOut();
+
+      });
+    });
+  </script>
+</body>
+
+</html>

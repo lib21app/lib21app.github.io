@@ -1,0 +1,220 @@
+.navbar-bg:before {
+    background: none;
+}
+.navbar-bg:after {
+    background-color: #eeeeee;
+}
+
+.toolbar {
+    background-color: #ffffff;
+}
+
+.toolbar-bottom:after, .ios .toolbar-bottom-ios:after, .md .toolbar-bottom-md:after, .aurora .toolbar-bottom-aurora:after {
+    display: none;
+}
+
+.toolbar-bottom:before, .ios .toolbar-bottom-ios:before, .md .toolbar-bottom-md:before, .aurora .toolbar-bottom-aurora:before {
+    background-color: #eeeeee;
+}
+
+.subnavbar:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 100%;
+    bottom: auto;
+    height: 1px;
+    pointer-events: none;
+    background-color: #eeeeee;
+}
+
+.subnavbar:after {
+    background-color: #eeeeee;
+}
+
+
+
+
+
+
+/* NO SELECT + HIGHLIGHT COLOR */
+* {
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
+
+
+.status {
+  font-size: 10px;color: #ffffff;text-align:center;
+}
+.status-icon {
+  display: inline-block;border-radius: 60px; box-shadow: 0px 0px 2px #ffffff; padding: 0.5em 0.5em;font-size: 24px;
+}
+
+
+
+html {
+    overscroll-behavior-y: contain;
+}
+
+.html {
+    overscroll-behavior-y: contain;
+}
+
+
+.page-content{overflow-y:auto; overflow-x:hidden !important;}
+
+
+
+
+
+.tablet-only {
+  display: none;
+}
+@media (min-width: 768px) {
+.tablet-only {
+  display: block;
+}
+}
+
+
+.card-footer {
+  display: block;
+  padding: 0px;
+}
+
+
+
+#status {
+
+}
+#status.online {
+  color: #FFFFFF;
+}        
+#status.offline {
+  color: #ff3b30;
+}
+
+
+
+
+.white {
+ color:#dddddd;
+}
+.gelap {
+ background-color:#121212
+}
+
+.modalgelap {
+ background-color:#181818
+}
+
+.englishcorner {
+ background-image:url(../img/englishcorner.jpg)
+}
+
+.bioskop {
+ background-image:url(../img/bioskop.jpg)
+}
+
+.tatasurya {
+ background-image:url(../img/tatasurya.jpg)
+}
+
+.perpusda {
+ background-image:url(../img/perpusda.jpg)
+}
+
+.smarttv {
+ background-image:url(../img/smarttv.jpg)
+}
+
+.layanananak {
+ background-image:url(../img/layanananak.jpg)
+}
+
+.bercerita {
+ background-image:url(../img/bercerita.jpg)
+}
+
+.ruangbaca {
+ background-image:url(../img/ruangbaca.jpg)
+}
+
+.rapat {
+ background-image:url(../img/rapat.jpg)
+}
+
+.shalat {
+  background-image:url(../img/shalat.jpg)
+ }
+
+ .tabelperiodik {
+  background-image:url(../img/tabel-periodik.png)
+ }
+
+ .quran {
+  background-image:url(../img/quran.jpg)
+ }
+
+ .mikrotik {
+  background-image:url(../img/mikrotik.jpg)
+ }
+
+ .loker {
+  background-image:url(../img/loker.jpg)
+ }
+
+ .multimedia {
+  background-image:url(../img/multimedia.jpg)
+ }
+ 
+ .internet {
+  background-image:url(../img/internet.jpg)
+ }
+
+ .internet2 {
+  background-image:url(../img/internet2.jpg)
+ }
+
+ .englishcorner2 {
+  background-image:url(../img/englishcorner2.jpg)
+ }
+ 
+ .natgeo {
+  background-image:url(../img/natgeo.jpg)
+ }
+ 
+ .cctv {
+  background-image:url(../img/cctv.jpg)
+ }
+ 
+ .canon {
+  background-image:url(../img/canon.jpg)
+ }
+ 
+ .brother {
+  background-image:url(../img/brother.jpg)
+ }
+ 
+ .joyko {
+  background-image:url(../img/joyko.jpg)
+ }
+ 
+ .epson {
+  background-image:url(../img/epson.jpg)
+ }
+ 
+ .nubar {
+  background-image:url(../img/nubar.jpg)
+ }
+ 
+ .tawuran {
+  background-image:url(../img/tawuran.jpg)
+ }
