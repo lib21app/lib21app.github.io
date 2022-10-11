@@ -65,16 +65,91 @@
 
 </head>
 
-<body>
+<body class="theme-dark">
 
   <div id="app">
 
+    <div class="panel panel-left panel-cover panel-resizable panel-init">
+      <div class="page ">
+        <div class="page-content">
+          <div class="block-title" style="margin-top:-20px">MENU</div>
 
+
+
+          <div class="block">
+            <div class="list accordion-list">
+              <ul style="margin: 0 -10px 0 -15px;">
+                <li style="background-color:#121212;" class="accordion-item"><a class="item-link" href="#">
+                    <div class="card-content">
+                      <div class="list media-list" style="padding-left: -20px;">
+                        <ul>
+                          <li class="item-content">
+                            <div class="item-media"><img src="img/logo.png" width="44" /></div>
+                            <div class="item-inner white">
+                              <div class="item-title-row">Digital Library</div>
+                              <div class="item-subtitle">Twenty One</div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="accordion-item-content card-content" style="margin: 0 10px 0 15px;"><br />
+                    <a href="/ebook/" class="panel-close" data-animate="false" style="color:#ffffff"><i
+                        class="icon f7-icons" style="font-size:24px">book</i> &nbsp;&nbsp;&nbsp;Ebook</a><br /><br />
+                    <a href="/audiobook/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                        style="font-size:24px">headphones</i> &nbsp;&nbsp;&nbsp;Audiobook</a><br /><br />
+                    <a href="index.html" class="link external panel-close" data-animate="false" style="color:#ffffff"><i
+                        class="icon f7-icons" style="font-size:24px">house</i> &nbsp;&nbsp;&nbsp;&nbsp;
+                      Literasi</a><br /><br />
+                    <a href="/englishcorner/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                        style="font-size:24px">tv_music_note</i> &nbsp;&nbsp;&nbsp;English Corner</a><br /><br />
+                    <a href="/cerpen-naskah/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                        style="font-size:24px">pencil</i> &nbsp;&nbsp;&nbsp;Catatanku</a><br /><br />
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <a href="/karya/" class="link panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                style="font-size:24px">moon_stars</i> &nbsp;&nbsp;&nbsp;Karya Siswa<br /> &nbsp;&nbsp;&nbsp;SMPN 21
+              Purworejo</a><br /><br />
+            <a href="/cerpen-naskah/" class="link panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                style="font-size:24px">paintbrush</i> &nbsp;&nbsp;&nbsp;Tulis Cerpen</a><br /><br />
+            <a href="/cerpen/" class="link panel-close" style="width:75%"><button style="width:100%"
+                class="button button-small button-round button-outline">Kirim
+                cerpen</button></a><br /><br />
+            <a href="/todo/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                style="font-size:24px">list_number</i> &nbsp;&nbsp;&nbsp;Agendaku</a><br /><br />
+            <a href="/katalog/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                style="font-size:24px">desktopcomputer</i> &nbsp;&nbsp;&nbsp;OPAC (Katalog Online)</a><br /><br />
+            <a href="/komunitas/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                style="font-size:24px">bubble_left_bubble_right</i> &nbsp;&nbsp;&nbsp;Komunitas</a><br /><br />
+            <a href="/twitter/" class="panel-close" style="color:#ffffff"><i class="icon f7-icons"
+                style="font-size:24px">logo_twitter</i> &nbsp;&nbsp;&nbsp;Linimasa</a>
+          </div>
+
+          <hr style="height:1px;border-width:0;color:#333333;background-color:#333333;margin: 0px 15px 0px 15px;">
+          <div class="block">
+            <p>Versi update:</p>
+            <object type="text/html" data="https://library.smpn21purworejo.sch.id/update/v11.txt"
+              style="width:100%; height:75px; margin-left:-8px;">&nbsp;&nbsp;Periksa koneksi internet anda, tidak ada
+              informasi update
+            </object>
+          </div>
+          <div class="block" style="margin-left:-35%">
+            <a href="https://play.google.com/store/apps/details?id=id.sch.smpn21purworejo.library"
+              class="link external panel-close" data-animate="false" style="color:#ffffff"><img
+                src="img/google-play.png" width="50%" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
 
-      <div class="toolbar tabbar-labels toolbar-bottom">
-        <div class="toolbar tabbar-labels toolbar-bottom">
+      <div class="toolbar tabbar-labels toolbar-bottom" style="background-color:#121212">
+        <div class="toolbar tabbar-labels toolbar-bottom" style="background-color:#121212">
           <div class="toolbar-inner">
             <a href="/ebook/" data-animate="false" class="link"><i class="icon f7-icons">book</i></a>
             <a href="/audiobook/" data-animate="false" class="link"><i class="icon f7-icons">headphones</i></a>
@@ -92,8 +167,17 @@
       <div class="page">
 
         <div class="navbar">
-          <div class="navbar-bg"></div>
+          <div class="navbar-bg gelap"></div>
           <div class="navbar-inner">
+            <div class="left">
+              <a href="#" class="link icon-only panel-open" data-panel="left">
+                <svg viewBox="0 0 100 80" width="40" height="40" style="fill: white">
+                  <rect y="5" width="90" height="8"></rect>
+                  <rect y="30" width="90" height="8"></rect>
+                  <rect y="55" width="90" height="8"></rect>
+                </svg>
+              </a>
+            </div>
             <div class="title" id="status">SMPN 21 Purworejo</div>
           </div>
         </div>
@@ -120,7 +204,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end ruangbaca">📷 Ruang Baca</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting1"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting1"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -131,7 +215,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end bioskop">📷 Literasi Visual</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting2"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting2"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -142,7 +226,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end perpusda">📷 Library News</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting3"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting3"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -153,7 +237,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end smarttv">📷 Smart Tv 43"</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting4"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting4"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -164,7 +248,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end layanananak">📷 Layanan Anak</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting5"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting5"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -175,7 +259,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end bercerita">📷 Layanan Bercerita</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting6"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting6"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -186,7 +270,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end rapat">📷 Library News</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting7"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting7"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -197,7 +281,7 @@
                             <div class="card demo-card-header-pic">
                               <div class="card-header align-items-flex-end internet">📷 Layanan Internet</div>
                               <div class="card-content card-content-padding">
-                                <p class="scard-content-padding" style="margin-top:-3px"><a id="greeting8"></a>
+                                <p class="white scard-content-padding" style="margin-top:-3px"><a id="greeting8"></a>
                                   selamat datang di Perpustakaan Twenty One SMPN 21 Purworejo</p>
                               </div>
                             </div>
@@ -209,21 +293,108 @@
                             <ul>
                               <li>
                                 <a href="#" class="item-link item-content" data-animate="false">
-                                  <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;color:#ffffff;">clock</i>
+                                  <div class="item-media"><i class="icon f7-icons" style="font-size: 34px;">clock</i>
                                   </div>
                                   <div class="item-inner">
 
-                                    <div style="color:#ffffff; font-size: smaller; width:90%" id="ops-container"></div>
+                                    <div style="color:#C8F6EC; font-size: smaller; width:90%" id="ops-container"></div>
 
                                   </div>
                                 </a>
                               </li>
                             </ul>
                           </div>
-
+                          <div class="list media-list">
+                            <ul>
+                              <berita id="1">
+                                <li>
+                                  <a href="/aplikasi/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/android-thumb.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Launching Aplikasi Baru Perpustakaan</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Library News</small>
+                                      </div>
+                                      <div class="item-text">Peluncuran aplikasi perpustakaan bertepatan dengan perayaan
+                                        40 tahun SMPN 21 Purworejo. Versi terbaru kini lebih cepat dan lengkap.</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                              <berita id="2">
+                                <li>
+                                  <a href="/rapat/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/rapat-thumb.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Rapat Pengembangan Perpustakaan</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Library News</small>
+                                      </div>
+                                      <div class="item-text">Membahas perencanaan dan pengembangan Perpustakaan Twenty
+                                        One SMPN 21 Purworejo di tahun 2022</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                              <berita id="3">
+                                <li>
+                                  <a href="/perpusda/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/perpusda-thumb.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Bimbingan Perpusda Purworejo</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Library News</small>
+                                      </div>
+                                      <div class="item-text">Dinas Perpustakaan dan Kearsipan Daerah Kabupaten Purworejo
+                                        melakukan bimbingan Akreditasi Perputakaan SMPN 21 Puworejo.</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                              <berita id="4">
+                                <li>
+                                  <a href="/matahari-senja/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/senja.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Matahari Senja</div>
+                                      </div>
+                                      <div class="item-text">Herman Supratikto</div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Cerita pendek</small>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                            </ul>
+                          </div>
 
                         </div>
 
+                        <div class="card-footer">
+                          <div class="list accordion-list accordion-opposite">
+                            <ul>
+                              <li class="accordion-item"><a class="item-content item-link" href="#">
+                                  <div class="item-inner">
+                                    <div class="item-title" style="font-size: 12px;">Lokasi Perpustakaan</div>
+                                  </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                  <div class="block">
+                                    <a href="https://goo.gl/maps/oYH6F9BMWJpy4gcV6" class="item-link external"
+                                      data-animate="false">
+                                      <p><small><b>SMPN 21 Purworejo</b><br />Brunorejo, Kec. Bruno, Kab. Purworejo,
+                                          Jawa Tengah 54261 (Lihat Peta)</small></p>
+                                    </a>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                       <div class="card">
                         <div class="card-header">Cerita Pendek <a href="/cerpen/" class="link" style="width:50%"><button
@@ -239,7 +410,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Lebih Kuat dari Mati</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Mardi Luhung</small>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Mardi Luhung</small>
                                       </div>
                                       <div class="item-text">Akhirnya, aku memang percaya, jika antara sakit dan mati
                                         tak ada hubungannya...</div>
@@ -252,7 +423,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Sepatu</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Eep Saefulloh
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Eep Saefulloh
                                           Fatah</small></div>
                                       <div class="item-text">Hujan pertama akhirnya jatuh juga...</div>
                                     </div>
@@ -264,7 +435,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Kirimi Aku Makanan</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">GM Sudarta</small></div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">GM Sudarta</small></div>
                                       <div class="item-text">Aku lupa, kapan aku kenal temanku yang satu ini...</div>
                                     </div>
                                   </a>
@@ -277,7 +448,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Di Balik Jendela</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Wilson Nadeak</small>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Wilson Nadeak</small>
                                       </div>
                                       <div class="item-text">Hal yang paling kutakuti ialah sakit. Berulang-ulang
                                         istriku menganjurkan supaya aku memeriksakan diri ke dokter...</div>
@@ -290,7 +461,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Ia Ingin Mati di Bulan Ramadhan Ini</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Agus Noor</small></div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Agus Noor</small></div>
                                       <div class="item-text">Betapa menyenangkan bila ia mati di bulan Ramadhan ini. Ia
                                         tak ingin kecewa lagi...</div>
                                     </div>
@@ -302,7 +473,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Indrakila</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Bre Redana</small></div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Bre Redana</small></div>
                                       <div class="item-text">Pensiun dari pekerjaannya di perusahaan surat kabar, lelaki
                                         itu pindah ke desa di ketinggian...</div>
                                     </div>
@@ -316,7 +487,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Pisau</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Yusrizal KW</small></div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Yusrizal KW</small></div>
                                       <div class="item-text">Rumah baru kami menghadap ke timur. Ketika pintu dibuka...
                                       </div>
                                     </div>
@@ -328,7 +499,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Ajaran Kehidupan Seorang Nenek</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Nh Dini</small></div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Nh Dini</small></div>
                                       <div class="item-text">Jauh-jauh aku datang, dimulai hari pertama aku sudah
                                         mendapat kekecewaan...</div>
                                     </div>
@@ -340,7 +511,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Hari Baik</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Gde Aryantha
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Gde Aryantha
                                           Soethama</small></div>
                                       <div class="item-text">Pendeta itu ringkih dan renta, jalannya perlahan,
                                         terbungkuk-bungkuk, kadang beberapa langkah ia berhenti mengatur napas...</div>
@@ -355,7 +526,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Gadis Kecil dan Perempuan yang Terluka</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Puthut EA</small></div>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Puthut EA</small></div>
                                       <div class="item-text">Aku terjaga lagi, Bunda, tubuhku terasa sangat dingin
                                         seperti patung marmer putih yang senantiasa Bunda cuci dengan hati-hati...</div>
                                     </div>
@@ -367,7 +538,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Saya di Mata Sebagian Orang</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Djenar Maesa Ayu</small>
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Djenar Maesa Ayu</small>
                                       </div>
                                       <div class="item-text">Sebagian orang menganggap saya munafik. Sebagian lagi
                                         menganggap saya...</div>
@@ -381,7 +552,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Sepasang Kera yang Berjalan dari Pura ke Pura</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Sunaryono Basuki
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Sunaryono Basuki
                                           Ks</small></div>
                                       <div class="item-text">Sudahkah kau dengar kisah tentang sepasang kera yang
                                         berjalan kaki dari pura ke pura untuk...</div>
@@ -415,7 +586,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Legenda Batu Babi dan Anjing</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Cerita Dari Kalimantan
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Cerita Dari Kalimantan
                                           Tengah</small></div>
                                       <div class="item-text">Badan Pengembangan dan Pembinaan Bahasa</div>
                                     </div>
@@ -429,7 +600,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Jangan Takut Mencoba</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Komik Literasi Seri
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Komik Literasi Seri
                                           Pendidikan Moral</small></div>
                                       <div class="item-text">Pendidikan.id</div>
                                     </div>
@@ -442,7 +613,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Puasa Wajib dan Sunnah</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Pendidikan Agama Islam
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Pendidikan Agama Islam
                                           dan Budi Pekerti</small></div>
                                       <div class="item-text">Kementarian Agama RI</div>
                                     </div>
@@ -457,7 +628,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Karang Melenguh</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Cerita Rakyat dari
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Cerita Rakyat dari
                                           Sumatera Barat</small></div>
                                       <div class="item-text">Badan Pengembangan dan Pembinaan Bahasa</div>
                                     </div>
@@ -471,7 +642,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Sekolah Yes! Nikah Muda No Way!</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Komik Literasi Seri
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Komik Literasi Seri
                                           Pendidikan Moral</small></div>
                                       <div class="item-text">Pendidikan.id</div>
                                     </div>
@@ -484,7 +655,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Zakat: Membersihkan dan Menyejahterakan</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Pendidikan Agama Islam
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Pendidikan Agama Islam
                                           dan Budi Pekerti</small></div>
                                       <div class="item-text">Kementarian Agama RI</div>
                                     </div>
@@ -500,7 +671,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Bau Wangi Tarumenyan</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Cerita Rakyat dari
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Cerita Rakyat dari
                                           Bali</small></div>
                                       <div class="item-text">Badan Pengembangan dan Pembinaan Bahasa</div>
                                     </div>
@@ -513,7 +684,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Haid Pertamaku</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Komik Literasi Seri
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Komik Literasi Seri
                                           Kesehatan</small></div>
                                       <div class="item-text">Pendidikan.id</div>
                                     </div>
@@ -526,7 +697,7 @@
                                       <div class="item-title-row">
                                         <div class="item-title">Shalat Jamak Qasar</div>
                                       </div>
-                                      <div class="item-subtitle"><small style="color:#ec521e;">Pendidikan Agama Islam
+                                      <div class="item-subtitle"><small style="color:#C8F6EC;">Pendidikan Agama Islam
                                           dan Budi Pekerti</small></div>
                                       <div class="item-text">Kementarian Agama RI</div>
                                     </div>
@@ -844,8 +1015,8 @@
                           <blockquote>
                             <p id="quotation"></p>
                             <footer>
-                              <p style="color:#8e8e93" id="source"></p>
-                              <p style="color:#ec521e" id="contoh"></p>
+                              <p style="color:#ffffff" id="source"></p>
+                              <p style="color:#C8F6EC" id="contoh"></p>
                             </footer>
                           </blockquote>
                         </div>
@@ -862,7 +1033,7 @@
                               <div class="card-header align-items-flex-end shalat">Media Pembelajaran</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Shalat Jamak Qashar</p>
-                                <p class="hitam">Media Pembelajaran berupa puzzle yang dikembangkan Perpustakaan Twenty
+                                <p class="white">Media Pembelajaran berupa puzzle yang dikembangkan Perpustakaan Twenty
                                   One untuk menyusun niat Shalat Jamak Qashar</p>
                               </div>
                             </div>
@@ -874,7 +1045,7 @@
                               <div class="card-header align-items-flex-end tatasurya">Media Pembelajaran</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Sistem Tata Surya</p>
-                                <p class="hitam">Media Pembelajaran yang dikembangkan Perpustakaan Twenty One dengan
+                                <p class="white">Media Pembelajaran yang dikembangkan Perpustakaan Twenty One dengan
                                   menyajikan animasi kumpulan benda langit yang terdiri atas sebuah bintang yang disebut
                                   Matahari dan semua objek yang terikat oleh gaya gravitasinya.</p>
                               </div>
@@ -887,7 +1058,7 @@
                               <div class="card-header align-items-flex-end tabelperiodik">Media Pembelajaran</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Tabel Periodik Unsur</p>
-                                <p class="hitam">Media Pembelajaran yang dikembangkan Perpustakaan Twenty One dengan
+                                <p class="white">Media Pembelajaran yang dikembangkan Perpustakaan Twenty One dengan
                                   menyajikan informasi tabular dari unsur-unsur kimia yang menarik dan interaktif.</p>
                               </div>
                             </div>
@@ -899,7 +1070,7 @@
                               <div class="card-header align-items-flex-end quran">Media Pembelajaran</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Program Ramadhan: Tahfidz Quran</p>
-                                <p class="hitam">Media Pembelajaran yang dikembangkan Perpustakaan Twenty One untuk
+                                <p class="white">Media Pembelajaran yang dikembangkan Perpustakaan Twenty One untuk
                                   memudahkan menghafalkan Juz 'Amma (Juz ke-30), yang merupakan bagian Juz terakhir
                                   dalam Al-Qur'an</p>
                               </div>
@@ -1021,7 +1192,7 @@
                               <div class="card-header align-items-flex-end internet">Fasilitas Internet</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Akses Internet Gratis</p>
-                                <p class="hitam">Layanan akses intenet diberikan kepada pemustaka untuk mengakses
+                                <p class="white">Layanan akses intenet diberikan kepada pemustaka untuk mengakses
                                   informasi. Pemustaka dapat memilih akses menggunakan komputer di Perpustakaan atau
                                   manfaatkan Wifi, keduanya gratis.</p>
                               </div>
@@ -1034,7 +1205,7 @@
                               <div class="card-header align-items-flex-end internet2">Fasilitas Internet</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Akses Internet Gratis</p>
-                                <p class="hitam">Layanan akses intenet diberikan kepada pemustaka untuk mengakses
+                                <p class="white">Layanan akses intenet diberikan kepada pemustaka untuk mengakses
                                   informasi. Pemustaka dapat memilih akses menggunakan komputer di Perpustakaan atau
                                   manfaatkan Wifi, keduanya gratis.</p>
                               </div>
@@ -1047,7 +1218,7 @@
                               <div class="card-header align-items-flex-end englishcorner2">Fasilitas Internet</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Akses Internet Gratis</p>
-                                <p class="hitam">Layanan akses intenet diberikan kepada pemustaka untuk mengakses
+                                <p class="white">Layanan akses intenet diberikan kepada pemustaka untuk mengakses
                                   informasi. Pemustaka dapat memilih akses menggunakan komputer di Perpustakaan atau
                                   manfaatkan Wifi, keduanya gratis.</p>
                               </div>
@@ -1119,7 +1290,7 @@
                               <div class="card-header align-items-flex-end bioskop">Ruang Referensi dan Multimedia</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Bioskop Twenty One</p>
-                                <p class="hitam">Mini teater dengan layar 4 meter memberikan pengalaman visual yang
+                                <p class="white">Mini teater dengan layar 4 meter memberikan pengalaman visual yang
                                   menarik untuk meningkatkan literasi dan hiburan edukatif</p>
                               </div>
                             </div>
@@ -1132,7 +1303,7 @@
                               </div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Reservasi ruangan</p>
-                                <p class="hitam">Ruang Multimedia untuk pembelajaran, pesentasi, zoom meeting, nonton
+                                <p class="white">Ruang Multimedia untuk pembelajaran, pesentasi, zoom meeting, nonton
                                   bareng, atau lainnya. Lihat jadwal penggunaan ruangan.</p>
                               </div>
                             </div>
@@ -1311,7 +1482,7 @@
                               </div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Layanan Bercerita</p>
-                                <p class="hitam">Layanan bercerita story telling merupakan bagian dari kegiatan layanan
+                                <p class="white">Layanan bercerita story telling merupakan bagian dari kegiatan layanan
                                   anak untuk menumbuhkan minat baca dan menambah pengetahuan anak.
                                 </p>
                               </div>
@@ -1325,7 +1496,7 @@
                                 Bercerita</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Layanan Anak</p>
-                                <p class="hitam">Selain meminjamkan bahan pustaka, anak-anak diarahkan untuk
+                                <p class="white">Selain meminjamkan bahan pustaka, anak-anak diarahkan untuk
                                   mengembangkan imajinasi, meningkatkan minat baca dan gemar belajar serta rekreasi yang
                                   mendidik</p>
                               </div>
@@ -1398,7 +1569,7 @@
                               <div class="card-header align-items-flex-end mikrotik">Fasilitas Keamanan</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Mikrotik</p>
-                                <p class="hitam">Mengamankan jaringan dan membatasi client yang menggunakan jaringan
+                                <p class="white">Mengamankan jaringan dan membatasi client yang menggunakan jaringan
                                   Wifi Perpustakaan</p>
                               </div>
                             </div>
@@ -1410,7 +1581,7 @@
                               <div class="card-header align-items-flex-end loker">Fasilitas Keamanan</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Locker penitipan</p>
-                                <p class="hitam">Fasilitas loker untuk menitipkan barang-barang yang tidak boleh dibawa
+                                <p class="white">Fasilitas loker untuk menitipkan barang-barang yang tidak boleh dibawa
                                   masuk ke perpustakaan</p>
                               </div>
                             </div>
@@ -1422,7 +1593,7 @@
                               <div class="card-header align-items-flex-end cctv">Fasilitas Keamanan</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">CCTV / IP Camera</p>
-                                <p class="hitam">Pemantauan aktivitas dan keamanan lokasi Perpustakaan Twenty One selama
+                                <p class="white">Pemantauan aktivitas dan keamanan lokasi Perpustakaan Twenty One selama
                                   24 jam.</p>
                               </div>
                             </div>
@@ -1625,7 +1796,7 @@
                               <div class="card-header align-items-flex-end englishcorner2">English Corner</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Audiolibrary</p>
-                                <p class="hitam">Koleksi audio berbahasa Inggris</p>
+                                <p class="white">Koleksi audio berbahasa Inggris</p>
                               </div>
                             </div>
                           </a>
@@ -1636,7 +1807,7 @@
                               <div class="card-header align-items-flex-end natgeo">English Corner</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Majalah Digital National Geographic Edisi US</p>
-                                <p class="hitam">Aplikasi pembaca PDF Khusus di Komputer Engish Corner</p>
+                                <p class="white">Aplikasi pembaca PDF Khusus di Komputer Engish Corner</p>
                               </div>
                             </div>
                           </a>
@@ -1647,7 +1818,7 @@
                               <div class="card-header align-items-flex-end englishcorner">English Corner</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Koleksi khusus berbahasa Inggris</p>
-                                <p class="hitam">Yuk belajar bahasa inggris - bahasa internasional - untuk bekal
+                                <p class="white">Yuk belajar bahasa inggris - bahasa internasional - untuk bekal
                                   menjelajahi
                                   dunia!. English is a way!</p>
                               </div>
@@ -1720,7 +1891,7 @@
                               <div class="card-header align-items-flex-end epson">Printer</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Fasilitas Print untuk Pemustaka</p>
-                                <p class="hitam">Mengerjakan tugas di perpustakaan. Tersedia Internet gratis dan
+                                <p class="white">Mengerjakan tugas di perpustakaan. Tersedia Internet gratis dan
                                   komputer gratis. Anda bisa mencari referensi dari internet atau dari koleksi buku-buku
                                   yang ada di perpustakaan, dan print!</p>
                               </div>
@@ -1733,7 +1904,7 @@
                               <div class="card-header align-items-flex-end canon">Fotokopi</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Fasilitas Fotokopi untuk Pemustaka</p>
-                                <p class="hitam">Pemustaka dapat memanfaatkan fasilitas dan layanan fotokopi untuk
+                                <p class="white">Pemustaka dapat memanfaatkan fasilitas dan layanan fotokopi untuk
                                   buku-buku Referensi yang tidak dapat dipinjam</p>
                               </div>
                             </div>
@@ -1745,7 +1916,7 @@
                               <div class="card-header align-items-flex-end brother">Scan</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Fasilitas Scan Perpustakaan</p>
-                                <p class="hitam">Perpustakaan memiliki Scanner Brother yang dapat menscan dokumen A4,
+                                <p class="white">Perpustakaan memiliki Scanner Brother yang dapat menscan dokumen A4,
                                   F4, ID Card, atau lainnya.</p>
                               </div>
                             </div>
@@ -1757,7 +1928,7 @@
                               <div class="card-header align-items-flex-end joyko">Laminating</div>
                               <div class="card-content card-content-padding">
                                 <p class="date">Fasilitas Laminating Perpustakaan</p>
-                                <p class="hitam">Dalam kesehariannya, mesin laminating digunakan untuk pembuatan kartu
+                                <p class="white">Dalam kesehariannya, mesin laminating digunakan untuk pembuatan kartu
                                   anggota. Jika kartu anggota milik pemustaka hilang, setiap saat kami dapat menerima
                                   permintaan untuk mencetak kartu anggota yang baru. Anda juga dapat memanfaatkannya!.
                                 </p>

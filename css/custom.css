@@ -95,7 +95,7 @@ html {
 
 }
 #status.online {
-  color: #FFFFFF;
+  color: #000000;
 }        
 #status.offline {
   color: #ff3b30;
@@ -107,6 +107,9 @@ html {
 .white {
  color:#dddddd;
 }
+.hitam {
+  color:#000000;
+ }
 .gelap {
  background-color:#121212
 }

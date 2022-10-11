@@ -1,0 +1,67 @@
+                          <div class="list media-list">
+                            <ul>
+                              <berita id="1">
+                                <li>
+                                  <a href="/aplikasi/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/android-thumb.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Launching Aplikasi Baru Perpustakaan</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#ec521e;">Library News</small>
+                                      </div>
+                                      <div class="item-text">Peluncuran aplikasi perpustakaan bertepatan dengan perayaan
+                                        40 tahun SMPN 21 Purworejo. Versi terbaru kini lebih cepat dan lengkap.</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                              <berita id="2">
+                                <li>
+                                  <a href="/rapat/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/rapat-thumb.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Rapat Pengembangan Perpustakaan</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#ec521e;">Library News</small>
+                                      </div>
+                                      <div class="item-text">Membahas perencanaan dan pengembangan Perpustakaan Twenty
+                                        One SMPN 21 Purworejo di tahun 2022</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                              <berita id="3">
+                                <li>
+                                  <a href="/perpusda/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/perpusda-thumb.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Bimbingan Perpusda Purworejo</div>
+                                      </div>
+                                      <div class="item-subtitle"><small style="color:#ec521e;">Library News</small>
+                                      </div>
+                                      <div class="item-text">Dinas Perpustakaan dan Kearsipan Daerah Kabupaten Purworejo
+                                        melakukan bimbingan Akreditasi Perputakaan SMPN 21 Puworejo.</div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                              <berita id="4">
+                                <li>
+                                  <a href="/matahari-senja/" class="item-link item-content">
+                                    <div class="item-media"><img src="img/senja.jpg" width="80" /></div>
+                                    <div class="item-inner">
+                                      <div class="item-title-row">
+                                        <div class="item-title">Matahari Senja</div>
+                                      </div>
+                                      <div class="item-text">Herman Supratikto</div>
+                                      <div class="item-subtitle"><small style="color:#ec521e;">Cerita pendek</small>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </berita>
+                            </ul>
+                          </div>

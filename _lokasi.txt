@@ -1,0 +1,21 @@
+                        <div class="card-footer">
+                          <div class="list accordion-list accordion-opposite">
+                            <ul>
+                              <li class="accordion-item"><a class="item-content item-link" href="#">
+                                  <div class="item-inner">
+                                    <div class="item-title" style="font-size: 12px;">Lokasi Perpustakaan</div>
+                                  </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                  <div class="block">
+                                    <a href="https://goo.gl/maps/oYH6F9BMWJpy4gcV6" class="item-link external"
+                                      data-animate="false">
+                                      <p><small><b>SMPN 21 Purworejo</b><br />Brunorejo, Kec. Bruno, Kab. Purworejo,
+                                          Jawa Tengah 54261 (Lihat Peta)</small></p>
+                                    </a>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
