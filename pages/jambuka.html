@@ -1,0 +1,44 @@
+<template>
+  <div class="page">
+
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a class="link back" data-animate="false">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Jadwal</div>
+      </div>
+    </div>
+
+    <!-- Additional "hide-navbar-on-scroll" class to hide navbar on scroll automatically -->
+    <div class="page-content hide-navbar-on-scroll">
+      <div class="block">
+        <h1>Jam Buka Perpustakaan Twenty One</h1>
+        <h3>Update Agustus 2022</h3>
+        <br />
+        Koleksi Non Fiksi berjumlah 1.915 eksemplar atau 62,6% dari keseluruhan koleksi; koleksi Fiksi berjumlah 757 eksemplar atau 24,8% dari keseluruhan koleksi; dan koleksi Referensi berjumlah 385 eksemplar atau 12,6% dari keseluruhan koleksi.
+        <br /><br />
+        <div class="card">
+          <div class="card-header">Perbandingan Non Fiksi, Fiksi dan Referensi</div>
+          <div class="card-content card-content-padding">
+            <div id="piechart"></div>
+          </div>
+          <div class="card-footer">
+            <div class="list accordion-list accordion-opposite">
+              <a href="/statistik/" class="item-link item-content"><span>Lihat statistik lainnya</span></a>
+            </div>
+          </div>
+        </div>
+        <br />
+        Catatan:<br />
+        Statistik tidak muncul jika koneksi internet offline<br />
+        Statistik diperbarui jika ada perubahan data.
+      </div>
+    </div>
+
+  </div>
+</template>

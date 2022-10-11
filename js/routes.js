@@ -176,6 +176,10 @@ var routes = [
    path: '/statistik-pengunjung/',
    componentUrl: './pages/statistik-pengunjung.html',
  },
+ {
+  path: '/jambuka/',
+  componentUrl: './pages/jambuka.html',
+},
 {
   path: '/about/',
   componentUrl: './pages/about.html',
