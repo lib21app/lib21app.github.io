@@ -185,6 +185,14 @@ var routes = [
   componentUrl: './pages/about.html',
 },
 {
+  path: '/kartuanggota/',
+  componentUrl: './pages/kartuanggota.html',
+},
+{
+  path: '/fasilitaslayanan/',
+  componentUrl: './pages/fasilitaslayanan.html',
+},
+{
   path: '/panduan/',
   componentUrl: './pages/panduan.html',
 },
