@@ -117,6 +117,10 @@ var routes = [
 },
 //PATH
 {
+  path: '/news/',
+  componentUrl: './pages/news.html',
+},
+{
   path: '/poster/',
   componentUrl: './pages/poster.html',
 },
