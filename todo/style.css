@@ -1,5 +1,5 @@
 .body {
-  background: #121212;
+  background: #ffffff;
   font: 14px 'Nunito', sans-serif;
 }
 .today{
@@ -17,7 +17,7 @@
   margin: 20px 0;
 }
 .todo-list li {
-  background: #1c1c1d;
+  background: #ddd;
   border-radius: 5px;
   margin-bottom: 7px;
   position: relative;
@@ -28,7 +28,7 @@
 }
 .todo-list li.danger label {
   text-decoration: line-through;
-  color: #fff;
+  color: #000000;
 }
 .todo-list li.danger label .checkbox-mask {
   border-color: transparent;
@@ -48,7 +48,7 @@
 .todo-list li label {
   display: block;
   padding-right: 10px;
-  color: #ffffff;
+  color: #000000;
 }
 .todo-list li label input[type="checkbox"] {
   visibility: hidden;
@@ -154,7 +154,7 @@
 
 .today{
   text-align: left;
-      color: #fff;
+      color: #000000;
 }
 
 

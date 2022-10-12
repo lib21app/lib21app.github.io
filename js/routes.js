@@ -193,6 +193,14 @@ var routes = [
   componentUrl: './pages/fasilitaslayanan.html',
 },
 {
+  path: '/reward/',
+  componentUrl: './pages/reward.html',
+},
+{
+  path: '/tatatertib/',
+  componentUrl: './pages/tatatertib.html',
+},
+{
   path: '/panduan/',
   componentUrl: './pages/panduan.html',
 },
