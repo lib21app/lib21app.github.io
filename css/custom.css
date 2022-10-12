@@ -225,3 +225,6 @@ html {
  .reward {
   background-image:url(../img/reward.png)
  }
+
+ .card {
+  border-radius: 10px}
