@@ -445,7 +445,7 @@ Calendar.language['id']={
 	weekdayNames:["Minggu","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu"],
 	weekdayShortNames:["M","S","S","R","K","J","S"],
 	hMonthNames:["Muharam","Safar","Rabi'ul-Awal","Rabi'ul-Akhir","Jumadil-Awal","Jumadil-Akhir","Rajab","Sya'ban","Ramadhan","Syawwal","Zulqa'idah","Zulhijjah"],
-	hMonthShortNames:["Muh","Saf","R.Aw","R.Ak","J.Aw","J.Ak","Raj","Sya","Ram","Syw","Zuq","Zuh"]
+	hMonthShortNames:["Suro","Sapar","Mulud","Bakda M","J Awal","J Akir","Rejeb","Ruwah","Poso","Sawal","Selo","Besar"]
 };
 Calendar.language['ar']={
 	isRTL:true,
