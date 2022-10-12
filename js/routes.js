@@ -1175,6 +1175,14 @@ var routes = [
   componentUrl: './news/perpusda.html',
 },
 {
+  path: '/pendirian/',
+  componentUrl: './news/pendirian.html',
+},
+{
+  path: '/mkks/',
+  componentUrl: './news/mkks.html',
+},
+{
   path: '/aplikasi/',
   componentUrl: './news/aplikasi.html',
 },
