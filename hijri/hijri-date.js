@@ -113,7 +113,7 @@ Object.defineProperty(HijriDate,'UTC',{value:function(){
 	t=h.dayCount((a[0]-1)*12+a[1]);t+=a[2]-1;t*=864e5;t+=a[3]*36e5;t+=a[4]*6e4;t+=a[5]*1e3;t+=a[6];t+=h.DIFF;return t
 }});
 HijriDate.monthNames=["Muharram","Safar","Rabi'ul-Awwal","Rabi'ul-Akhir","Jumadal-Ula","Jumadal-Akhir","Rajab","Sha'ban","Ramadan","Syawwal","Dhul-Qa'da","Dhul-Hijja"];
-HijriDate.monthShortNames=["Muh","Saf","RAw","RAk","JAw","JAk","Raj","Sha","Ram","Sya","DhQ","DhH"];
+HijriDate.monthShortNames=["Suro","Sapar","Mulud","Bakda M","J. Awal","J. Akir","Rejeb","Ruwah","Poso","Sawal","Sela","Besar"];
 HijriDate.weekdayNames=["Ahad","Ithnin","Thulatha","Arba'a","Khams","Jumu'ah","Sabt"];
 HijriDate.weekdayShortNames=["Ahd","Ith","Thu","Arb","Kha","Jum","Sab"];
 Date.prototype.getDayCountInMonth=function(){
