@@ -20,14 +20,78 @@
                 <h1>Kartu Anggota Perpustakaan Twenty One</h1>
                 <h3>SMPN 21 Purworejo</h3>
                 <br />
-                <img width="100%" src="img/kartu.jpg">
-                <br /><br />
-                Kartu anggota wajib dibawa saat mengunjungi Perpustakaan. Fungsinya, pertama untuk absensi pengunjung. Scan barcode yang ada di kartu dengan cara mengarahkan ke pemindai /scanner barcode yang tersedia di komputer absen.
-                <br />
+
             </div>
 
             <div class="block">
-                Fungsi Kartu anggota terutama adalah untuk memanfaatkan setiap layanan dan fasilitas Perpustakaan.
+
+                <div class="card">
+                    <a href="#" class="item-content">
+                        <div class="card demo-card-header-pic">
+                            <div class="card-header align-items-flex-end"><img width="100%" src="img/kartu.jpg"></div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">Kartu Anggota Perpustakaan</p>
+                                <p class="hitam">Kartu anggota wajib dibawa saat mengunjungi Perpustakaan. Fungsinya,
+                                    pertama untuk absensi pengunjung.
+                                    Scan barcode yang ada di kartu dengan cara mengarahkan ke pemindai /scanner barcode
+                                    yang tersedia di
+                                    komputer absen.</p>
+                                <p style="color:purple">Untuk dapat memanfaatkan setiap layanan dan fasilitas
+                                    Perpustakaan, pemustaka diwajibkan menunjukkan Kartu Anggota.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-footer" style="margin-top:-7px;">
+                        <div class="list accordion-list accordion-opposite" style="width: 100%">
+                            <ul>
+                                <li class="accordion-item"><a class="item-content item-link" href="#">
+                                        <div class="item-inner">
+                                            <div class="item-title" style="font-size: 12px;">Informasi pembuatan Kartu
+                                                Anggota
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-item-content">
+                                        <div class="list media-list">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" class="item-content" @click="openAlert">
+                                                        <div class="item-media hitam"><i class="icon f7-icons"
+                                                                style="font-size: 34px;">creditcard</i>
+                                                        </div>
+                                                        <div class="item-inner hitam">
+                                                            <div class="item-title-row">
+                                                                <div class="item-title">Pembuatan kartu anggota baru
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-subtitle">Siswa baru / kelas 7 baru</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-content" @click="openAlert2">
+                                                        <div class="item-media hitam"><i class="icon f7-icons"
+                                                                style="font-size: 34px;">creditcard</i>
+                                                        </div>
+                                                        <div class="item-inner hitam">
+                                                            <div class="item-title-row">
+                                                                <div class="item-title">Penggantian kartu yang hilang
+                                                                    atau rusak</div>
+                                                            </div>
+                                                            <div class="item-subtitle">PAI & Budi Pekerti</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
                 <br />
                 #SalamLiterasi
             </div>
@@ -36,3 +100,17 @@
 
     </div>
 </template>
+<script>
+    return {
+        methods: {
+            openAlert: function () {
+                var app = this.$app;
+                app.dialog.alert('Pembuatan kartu anggota diproses setelah data nomor Induk dari Kesiswaan/TU siap, biasanya satu bulan setelah diterima/ setelah MPLS. Hubungi pustakawan untuk informasi selengkapnya.');
+            },
+            openAlert2: function () {
+                var app = this.$app;
+                app.dialog.alert('Tenang saja, kartu anggota yang hilang atau rusak dapat diganti / dibuatkan yang baru. Hubungi pustakawan untuk mencetak / print kartu anggota yang hilang / rusak.');
+            },
+        }
+    }
+</script>
