@@ -51,6 +51,11 @@ var routes = [
   name: 'home',
 },
 {
+  path: '/video-kirim/',
+  url: './pages/video-kirim.html',
+  name: 'home',
+},
+{
   path: '/cerpen-naskah/',
   url: './pages/cerpen-naskah.html',
   name: 'home',
@@ -68,6 +73,16 @@ var routes = [
 {
   path: '/poster-iframe/',
   url: './pages/poster-iframe.html',
+  name: 'home',
+},
+{
+  path: '/video-iframe/',
+  url: './pages/video-iframe.html',
+  name: 'home',
+},
+{
+  path: '/kaligrafi-iframe/',
+  url: './pages/kaligrafi-iframe.html',
   name: 'home',
 },
 {

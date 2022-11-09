@@ -230,5 +230,13 @@ html {
   background-image:url(../img/poster.jpg)
  }
 
+ .video {
+  background-image:url(../img/video.jpg)
+ }
+
+ .kaligrafi {
+  background-image:url(../img/kaligrafi.png)
+ }
+
  .card {
   border-radius: 10px}
